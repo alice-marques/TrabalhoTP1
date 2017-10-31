@@ -1,0 +1,3 @@
+/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/CMakeFiles/Trabalho3.dir
