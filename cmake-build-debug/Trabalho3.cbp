@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug"/>
+				<Option working_dir="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug"/>
+				<Option working_dir="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug"/>
+				<Option working_dir="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Trabalho3">
-				<Option output="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Trabalho3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug"/>
+				<Option output="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Trabalho3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho3"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Trabalho3/fast">
-				<Option output="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Trabalho3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug"/>
+				<Option output="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Trabalho3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,53 +77,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho3/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/Interfaces.cpp">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/camadaApresentacao.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/Interfaces.h">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/camadaApresentacao.h">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.cpp">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/dominios.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.h">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/dominios.h">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.cpp">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/entidades.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/entidades.h">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.cpp">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/interfaces.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/interfaces.h">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/main.cpp">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/main.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testes.cpp">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/testes.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testes.h">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/testes.h">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testesEntidades.cpp">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/testesEntidades.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testesEntidades.h">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/testesEntidades.h">
 			<Option target="Trabalho3"/>
 		</Unit>
-		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/CMakeLists.txt">
+		<Unit filename="/home/andre/UnB/TP1/Fernando/T3/Trabalho3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

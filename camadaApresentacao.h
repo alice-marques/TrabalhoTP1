@@ -1,18 +1,26 @@
 //
 // Created by andre on 11/1/17.
 //
-#include "Interfaces.h"
+#include "interfaces.h"
 #ifndef TRABALHO3_CAMADAAPRESENTACAO_H
 #define TRABALHO3_CAMADAAPRESENTACAO_H
 
 
 
-class CamadaDeApresentacao{
+class menu1{
 private:
-    processaOpcaoMenu *processa1;
+    processaOpcaoMenu1 *processa1;
 public:
-    CamadaDeApresentacao();
+    menu1();
     void primeiroMenu();
+};
+
+class menuUsuario{
+private:
+    USUARIO *usuario;
+public:
+    menuUsuario();
+    void imprimeMenuCadastro();
 };
 
 

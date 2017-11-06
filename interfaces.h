@@ -5,18 +5,15 @@
 #ifndef TRABALHO3_INTERFACES_H
 #define TRABALHO3_INTERFACES_H
 
-class processaOpcaoMenu{
-public:
-    void processaMenu1(int opcao);
-};
-
-class criaUsuario{
+class processaOpcaoMenu1{
 private:
     USUARIO *usuario;
+
 public:
-    criaUsuario();
-    void criaNovo();
+    int processaMenu1(int opcao);
+    void processaCriacaoUsuario();
 };
+
 
 
 
