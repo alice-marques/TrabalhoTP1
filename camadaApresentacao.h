@@ -6,15 +6,19 @@
 #define TRABALHO3_CAMADAAPRESENTACAO_H
 
 class menuUsuario{
+private:
+    processaCadastroUsuario *processaCadastroUsuario1;
 public:
     menuUsuario();
     void menuCadastro();
 };
 
+class menuLogin{
+
+};
 
 class menu1{
 private:
-    processaOpcaoMenu1 *processa1;
     menuUsuario *menuUsuario1;
 public:
     menu1();

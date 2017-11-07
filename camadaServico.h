@@ -5,21 +5,18 @@
 #ifndef TRABALHO3_INTERFACES_H
 #define TRABALHO3_INTERFACES_H
 
-class processaOpcaoMenu1{
+class processaLogIn{
 private:
     USUARIO *usuario;
-
+    std::string entrada;
 public:
-    int processaMenu1(int opcao);
-    void processaCriacaoUsuario();
+    bool checaApelido();
+    bool checaSenha();
 };
 
 class processaCadastroUsuario{
 private:
-    std::string nome;
-    std::string apelido;
-    std::string telefone;
-    std::string senha;
+    std::string entrada;
     USUARIO *usuario;
 public:
     bool cadastraNome();

@@ -44,7 +44,7 @@ private:
     std::string senha;
 public:
     bool valida(std::string senha_validar);
-    void set_senha(std::string senha) ;
+    void set_senha(std::string senha);
     std::string get_senha();
 };
 

@@ -6,33 +6,47 @@
 #include "camadaServico.h"
 
 
-void processaOpcaoMenu1::processaCriacaoUsuario() {
-    USUARIO *usuario1 = new USUARIO();
-    usuario1->cria_USUARIO();
 
-}
-
-int processaOpcaoMenu1::processaMenu1(int opcao) {
-    if(opcao == 1) return 1;
-    else if(opcao == 2) return 2;
-    else if(opcao == 3){
-        std::cout << "Ate logo!";
-        return 0;
-    }
-}
 
 processaCadastroUsuario::processaCadastroUsuario() {
     usuario = new USUARIO();// ver a questão do singleton (acho q é mais facil)
 }
 
 bool processaCadastroUsuario::cadastraNome() {
-    std::cin >> nome;
-    if()
-    return false;
+    std::cin >> entrada;
+    if(usuario->Nome->valida(entrada)){
+        usuario->Nome->set_nome(entrada);
+        return true;
+    }else return false;
 }
 
 bool processaCadastroUsuario::cadastraApelido() {
-    return false;
+    std::cin >> entrada;
+    if(usuario->Apelido->valida(entrada)){
+        usuario->Apelido->set_apelido(entrada);
+        return true;
+    }else return false;
+}
+
+bool processaCadastroUsuario::cadastraTelefone() {
+    std::cin >> entrada;
+    if(usuario->Telefone->valida(entrada)){
+        usuario->Telefone->set_telefone(entrada);
+        return true;
+    }else return false;
+}
+
+bool processaCadastroUsuario::cadastraSenha() {
+    std::cin >> entrada;
+    if(usuario->Senha->valida(entrada)){
+        usuario->Senha->set_senha(entrada);
+        return true;
+    }else return false;
 }
 
 
+bool processaLogIn::checaSenha() {
+    std::cin >> entrada;
+
+    return false;
+}

@@ -3,9 +3,14 @@
 
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o: ../camadaApresentacao.cpp
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o: ../camadaApresentacao.h
+CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o: ../camadaServico.h
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o: ../dominios.h
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o: ../entidades.h
-CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o: ../interfaces.h
+
+CMakeFiles/Trabalho3.dir/camadaServico.cpp.o: ../camadaServico.cpp
+CMakeFiles/Trabalho3.dir/camadaServico.cpp.o: ../camadaServico.h
+CMakeFiles/Trabalho3.dir/camadaServico.cpp.o: ../dominios.h
+CMakeFiles/Trabalho3.dir/camadaServico.cpp.o: ../entidades.h
 
 CMakeFiles/Trabalho3.dir/dominios.cpp.o: ../dominios.cpp
 CMakeFiles/Trabalho3.dir/dominios.cpp.o: ../dominios.h
@@ -14,15 +19,10 @@ CMakeFiles/Trabalho3.dir/entidades.cpp.o: ../dominios.h
 CMakeFiles/Trabalho3.dir/entidades.cpp.o: ../entidades.cpp
 CMakeFiles/Trabalho3.dir/entidades.cpp.o: ../entidades.h
 
-CMakeFiles/Trabalho3.dir/interfaces.cpp.o: ../dominios.h
-CMakeFiles/Trabalho3.dir/interfaces.cpp.o: ../entidades.h
-CMakeFiles/Trabalho3.dir/interfaces.cpp.o: ../interfaces.cpp
-CMakeFiles/Trabalho3.dir/interfaces.cpp.o: ../interfaces.h
-
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../camadaApresentacao.h
+CMakeFiles/Trabalho3.dir/main.cpp.o: ../camadaServico.h
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../dominios.h
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../entidades.h
-CMakeFiles/Trabalho3.dir/main.cpp.o: ../interfaces.h
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../testes.h
 
