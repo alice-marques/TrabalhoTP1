@@ -18,7 +18,7 @@ const char conto[6] = "CONTO";
 
 
 
-int nome::valida(std::string nome_validar) {
+bool nome::valida(std::string nome_validar) {
     int indice = 0;
     while(nome_validar[indice] != '\0'){
         if((nome_validar[indice] > valor_maximo_letra_minuscula) ||
@@ -36,16 +36,14 @@ int nome::valida(std::string nome_validar) {
 }
 
 void nome::set_nome(std::string nome_recebido){
-    int flag = valida(nome_recebido);
-    if(flag != -1)
-        nome = nome_recebido;
+    if( valida(nome_recebido) ) nome = nome_recebido;
 }
 
 std::string nome::get_nome(){
     return nome;
 }
 
-int apelido::valida(std::string apelido_validar) {
+bool apelido::valida(std::string apelido_validar) {
     int indice = 0;
     while(apelido_validar[indice] != '\0'){
         if(indice > 5) return false;
@@ -57,15 +55,14 @@ int apelido::valida(std::string apelido_validar) {
 }
 
 void apelido::set_apelido(std::string apelido_recebido) {
-    int flag = valida(apelido_recebido);
-    if(flag != -1) apelido = apelido_recebido;
+    if( valida(apelido_recebido) ) apelido = apelido_recebido;
 }
 
 std::string apelido::get_apelido(){
     return apelido;
 }
 
-int telefone::valida(std::string telefone_validar) {
+bool telefone::valida(std::string telefone_validar) {
     int indice = 0;
     while(telefone_validar[indice] != '\0'){
         if(telefone_validar[indice] > valor_maximo_numero || telefone_validar[indice] < valor_minimo_numero) return false;
@@ -76,15 +73,14 @@ int telefone::valida(std::string telefone_validar) {
 }
 
 void telefone::set_telefone(std::string telefone_recebido) {
-    int flag = valida(telefone_recebido);
-    if(flag != -1) telefone = telefone_recebido;
+    if( valida(telefone_recebido) ) telefone = telefone_recebido;
 }
 
 std::string telefone::get_telefone(){
     return telefone;
 }
 
-int senha::valida(std::string senha_validar) {
+bool senha::valida(std::string senha_validar) {
     int indice = 0;
     while(senha_validar[indice] != '\0') {
         if (senha_validar[indice] < valor_minimo_letra_maiuscula ||
@@ -100,15 +96,14 @@ int senha::valida(std::string senha_validar) {
 }
 
 void senha::set_senha(std::string senha_recebido) {
-    int flag = valida(senha_recebido);
-    if(flag != -1) senha = senha_recebido;
+    if( valida(senha_recebido) ) senha = senha_recebido;
 }
 
 std::string senha::get_senha(){
     return senha;
 }
 
-int titulo::valida(std::string titulo_validar) {
+bool titulo::valida(std::string titulo_validar) {
     int indice = 0;
     while(titulo_validar[indice] != '\0') {
         if (titulo_validar[indice] == ' ')
@@ -120,15 +115,14 @@ int titulo::valida(std::string titulo_validar) {
 }
 
 void titulo::set_titulo(std::string titulo_recebido) {
-    int flag = valida(titulo_recebido);
-    if(flag != -1) titulo = titulo_recebido;
+    if( valida(titulo_recebido)) titulo = titulo_recebido;
 }
 
 std::string titulo::get_titulo(){
     return titulo;
 }
 
-int data::valida(std::string data_validar) {
+bool data::valida(std::string data_validar) {
     int indice = 0;
     while(data_validar[indice] != '\0') {
         if (data_validar[indice] < valor_minimo_numero || data_validar[indice] > valor_maximo_numero) return false;
@@ -140,15 +134,14 @@ int data::valida(std::string data_validar) {
 }
 
 void data::set_data(std::string data_recebido) {
-    int flag = valida(data_recebido);
-    if(flag != -1) data = data_recebido;
+    if(valida(data_recebido)) data = data_recebido;
 }
 
 std::string data::get_data(){
     return data;
 }
 
-int codigo::valida(std::string codigo_validar) {
+bool codigo::valida(std::string codigo_validar) {
     int indice = 0;
     while(codigo_validar[indice] != '\0') {
         if (codigo_validar[indice] < valor_minimo_numero || codigo_validar[indice] > valor_maximo_numero) return false;
@@ -159,15 +152,14 @@ int codigo::valida(std::string codigo_validar) {
 }
 
 void codigo::set_codigo(std::string codigo_recebido) {
-    int flag = valida(codigo_recebido);
-    if(flag != -1) codigo = codigo_recebido;
+    if( valida(codigo_recebido) ) codigo = codigo_recebido;
 }
 
 std::string codigo::get_codigo(){
     return codigo;
 }
 
-int texto::valida(std::string texto_validar) {
+bool texto::valida(std::string texto_validar) {
     int indice = 0;
     while(texto_validar[indice] != '\0') {
         indice++;
@@ -177,15 +169,14 @@ int texto::valida(std::string texto_validar) {
 }
 
 void texto::set_texto(std::string texto_recebido) {
-    int flag = valida(texto_recebido);
-    if(flag != -1) texto = texto_recebido;
+    if( valida(texto_recebido) ) texto = texto_recebido;
 }
 
 std::string texto::get_texto(){
     return texto;
 }
 
-int genero::valida(std::string genero_validar) {
+bool genero::valida(std::string genero_validar) {
     int indice = 0;
     while(genero_validar[indice] != '\0') {
         if (genero_validar[indice] != epopeia[indice] && genero_validar[indice] != romance[indice] && genero_validar[indice] != novela[indice] && genero_validar[indice] != ensaio[indice] && genero_validar[indice] != conto[indice])
@@ -196,8 +187,7 @@ int genero::valida(std::string genero_validar) {
 }
 
 void genero::set_genero(std::string genero_recebido) {
-    int flag = valida(genero_recebido);
-    if(flag != -1) genero = genero_recebido;
+    if( valida(genero_recebido) ) genero = genero_recebido;
 }
 
 std::string genero::get_genero(){

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andre/UnB/TP1/Fernando/T3/Trabalho3
+CMAKE_SOURCE_DIR = /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug
+CMAKE_BINARY_DIR = /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/CMakeFiles /home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/CMakeFiles /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/UnB/TP1/Fernando/T3/Trabalho3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ camadaApresentacao.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.s
 .PHONY : camadaApresentacao.cpp.s
 
+camadaServico.o: camadaServico.cpp.o
+
+.PHONY : camadaServico.o
+
+# target to build an object file
+camadaServico.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/camadaServico.cpp.o
+.PHONY : camadaServico.cpp.o
+
+camadaServico.i: camadaServico.cpp.i
+
+.PHONY : camadaServico.i
+
+# target to preprocess a source file
+camadaServico.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/camadaServico.cpp.i
+.PHONY : camadaServico.cpp.i
+
+camadaServico.s: camadaServico.cpp.s
+
+.PHONY : camadaServico.s
+
+# target to generate assembly for a file
+camadaServico.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/camadaServico.cpp.s
+.PHONY : camadaServico.cpp.s
+
 dominios.o: dominios.cpp.o
 
 .PHONY : dominios.o
@@ -203,33 +230,6 @@ entidades.s: entidades.cpp.s
 entidades.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/entidades.cpp.s
 .PHONY : entidades.cpp.s
-
-interfaces.o: interfaces.cpp.o
-
-.PHONY : interfaces.o
-
-# target to build an object file
-interfaces.cpp.o:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/interfaces.cpp.o
-.PHONY : interfaces.cpp.o
-
-interfaces.i: interfaces.cpp.i
-
-.PHONY : interfaces.i
-
-# target to preprocess a source file
-interfaces.cpp.i:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/interfaces.cpp.i
-.PHONY : interfaces.cpp.i
-
-interfaces.s: interfaces.cpp.s
-
-.PHONY : interfaces.s
-
-# target to generate assembly for a file
-interfaces.cpp.s:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/interfaces.cpp.s
-.PHONY : interfaces.cpp.s
 
 main.o: main.cpp.o
 
@@ -324,15 +324,15 @@ help:
 	@echo "... camadaApresentacao.o"
 	@echo "... camadaApresentacao.i"
 	@echo "... camadaApresentacao.s"
+	@echo "... camadaServico.o"
+	@echo "... camadaServico.i"
+	@echo "... camadaServico.s"
 	@echo "... dominios.o"
 	@echo "... dominios.i"
 	@echo "... dominios.s"
 	@echo "... entidades.o"
 	@echo "... entidades.i"
 	@echo "... entidades.s"
-	@echo "... interfaces.o"
-	@echo "... interfaces.i"
-	@echo "... interfaces.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

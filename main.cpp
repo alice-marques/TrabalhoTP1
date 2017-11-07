@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    CamadaDeApresentacao *camada = new CamadaDeApresentacao();
+    menu1 *camada = new menu1();
     camada->primeiroMenu();
 
     return 0;

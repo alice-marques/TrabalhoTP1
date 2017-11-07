@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "interfaces.h"
+#include "camadaServico.h"
 
 
 void processaOpcaoMenu1::processaCriacaoUsuario() {
@@ -20,3 +20,19 @@ int processaOpcaoMenu1::processaMenu1(int opcao) {
         return 0;
     }
 }
+
+processaCadastroUsuario::processaCadastroUsuario() {
+    usuario = new USUARIO();// ver a questão do singleton (acho q é mais facil)
+}
+
+bool processaCadastroUsuario::cadastraNome() {
+    std::cin >> nome;
+    if()
+    return false;
+}
+
+bool processaCadastroUsuario::cadastraApelido() {
+    return false;
+}
+
+
