@@ -7,7 +7,8 @@
 
 
 menu1::menu1() {
-    menuUsuario1 = new menuUsuario();
+    menuUsuario1 = new menuCadastro();
+    menuLogin1 = new menuLogin();
 }
 
 void menu1::primeiroMenu() {
@@ -20,18 +21,18 @@ void menu1::primeiroMenu() {
                       << "2. Para cadastrar um usuario;" << "\n" << "3. Para sair;" << "\n>> ";
             std::cin >> entrada;
         } while (entrada < 1 || entrada > 3);
-        if (entrada == 1) std::cout << "entrar";
-        else if (entrada == 2) menuUsuario1->menuCadastro();
+        if (entrada == 1) menuLogin1->validaUsuario();
+        else if (entrada == 2) menuUsuario1->menuCadastra();
         else if (entrada == 3) std::cout << "Ate logo!";
     }
 }
 
-menuUsuario::menuUsuario() {
+menuCadastro::menuCadastro() {
     processaCadastroUsuario1 = new processaCadastroUsuario();
 
     }
 
-void menuUsuario::menuCadastro() {
+void menuCadastro::menuCadastra() {
     do {
         std::cout << "Por favor digite o nome desejado(15 caracteres (letras, espaços em branco, ponto):\n>>";
     }while(!processaCadastroUsuario1->cadastraNome());
@@ -46,3 +47,19 @@ void menuUsuario::menuCadastro() {
     }while(!processaCadastroUsuario1->cadastraSenha());
 
 }
+
+menuLogin::menuLogin() {
+    processaLogIn1 = new processaLogIn();
+}
+void menuLogin::validaUsuario() {
+    do{
+        std::cout << "Digite o Apelido:\n>>";
+    }while(!processaLogIn1->checaApelido());
+    do{
+        std::cout << "Digite a Senha:\n>>";
+    }while(!processaLogIn1->checaSenha());
+    
+
+
+}
+//COMEÇAR A IMPLEMENTAÇÃO DO VETOR DE USUARIOS

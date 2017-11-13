@@ -9,7 +9,7 @@
 
 
 processaCadastroUsuario::processaCadastroUsuario() {
-    usuario = new USUARIO();// ver a questão do singleton (acho q é mais facil)
+    usuario = USUARIO::getInstance();// ver a questão do singleton (acho q é mais facil)
 }
 
 bool processaCadastroUsuario::cadastraNome() {
@@ -44,9 +44,17 @@ bool processaCadastroUsuario::cadastraSenha() {
     }else return false;
 }
 
+bool processaLogIn::checaApelido() {
+    std::cin >> entrada;
+    return (usuario->Apelido->get_apelido() == entrada);
+}
+
 
 bool processaLogIn::checaSenha() {
     std::cin >> entrada;
+    return (usuario->Senha->get_senha() == entrada);
+}
 
-    return false;
+processaLogIn::processaLogIn() {
+    usuario = USUARIO::getInstance();
 }

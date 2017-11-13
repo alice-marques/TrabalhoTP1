@@ -10,6 +10,7 @@ private:
     USUARIO *usuario;
     std::string entrada;
 public:
+    processaLogIn();
     bool checaApelido();
     bool checaSenha();
 };

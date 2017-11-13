@@ -5,7 +5,10 @@
 #ifndef TP1_T1_ENTIDADES_H
 #define TP1_T1_ENTIDADES_H
 class USUARIO{
+private:
+    static USUARIO* instance;
 public:
+    static USUARIO *getInstance();
     nome *Nome = NULL;
     apelido *Apelido = NULL;
     telefone *Telefone = NULL;
