@@ -29,7 +29,6 @@ void menu1::primeiroMenu() {
 
 menuCadastro::menuCadastro() {
     processaCadastroUsuario1 = new processaCadastroUsuario();
-
     }
 
 void menuCadastro::menuCadastra() {
@@ -45,7 +44,6 @@ void menuCadastro::menuCadastra() {
     do {
         std::cout << "Por favor digite a senha desejada(4 letras sem repeticao):\n>>";
     }while(!processaCadastroUsuario1->cadastraSenha());
-
 }
 
 menuLogin::menuLogin() {
@@ -58,8 +56,5 @@ void menuLogin::validaUsuario() {
     do{
         std::cout << "Digite a Senha:\n>>";
     }while(!processaLogIn1->checaSenha());
-    
-
-
 }
 //COMEÇAR A IMPLEMENTAÇÃO DO VETOR DE USUARIOS

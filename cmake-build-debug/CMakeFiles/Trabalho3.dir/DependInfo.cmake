@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.cpp" "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/CMakeFiles/Trabalho3.dir/armazenamento.cpp.o"
   "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.cpp" "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o"
   "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.cpp" "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaServico.cpp.o"
   "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.cpp" "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/CMakeFiles/Trabalho3.dir/dominios.cpp.o"

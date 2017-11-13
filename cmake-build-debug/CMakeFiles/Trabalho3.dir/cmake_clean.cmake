@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Trabalho3.dir/main.cpp.o"
   "CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o"
   "CMakeFiles/Trabalho3.dir/camadaServico.cpp.o"
+  "CMakeFiles/Trabalho3.dir/armazenamento.cpp.o"
   "Trabalho3.pdb"
   "Trabalho3"
 )

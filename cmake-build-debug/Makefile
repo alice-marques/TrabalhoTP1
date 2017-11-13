@@ -123,6 +123,33 @@ Trabalho3/fast:
 	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/build
 .PHONY : Trabalho3/fast
 
+armazenamento.o: armazenamento.cpp.o
+
+.PHONY : armazenamento.o
+
+# target to build an object file
+armazenamento.cpp.o:
+	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/armazenamento.cpp.o
+.PHONY : armazenamento.cpp.o
+
+armazenamento.i: armazenamento.cpp.i
+
+.PHONY : armazenamento.i
+
+# target to preprocess a source file
+armazenamento.cpp.i:
+	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/armazenamento.cpp.i
+.PHONY : armazenamento.cpp.i
+
+armazenamento.s: armazenamento.cpp.s
+
+.PHONY : armazenamento.s
+
+# target to generate assembly for a file
+armazenamento.cpp.s:
+	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/armazenamento.cpp.s
+.PHONY : armazenamento.cpp.s
+
 camadaApresentacao.o: camadaApresentacao.cpp.o
 
 .PHONY : camadaApresentacao.o
@@ -321,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Trabalho3"
+	@echo "... armazenamento.o"
+	@echo "... armazenamento.i"
+	@echo "... armazenamento.s"
 	@echo "... camadaApresentacao.o"
 	@echo "... camadaApresentacao.i"
 	@echo "... camadaApresentacao.s"

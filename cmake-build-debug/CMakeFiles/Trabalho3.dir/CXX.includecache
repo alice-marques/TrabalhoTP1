@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.cpp
+armazenamento.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
+
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
+entidades.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+vector
+-
+
 /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.cpp
 iostream
 -
@@ -23,8 +33,8 @@ camadaServico.h
 /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
 
 /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
-entidades.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+armazenamento.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
 
 /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.cpp
 dominios.h

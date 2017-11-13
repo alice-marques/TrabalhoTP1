@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.cpp">
+			<Option target="Trabalho3"/>
+		</Unit>
+		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h">
+			<Option target="Trabalho3"/>
+		</Unit>
 		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>
