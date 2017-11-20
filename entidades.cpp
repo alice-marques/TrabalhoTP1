@@ -3,17 +3,7 @@
 //
 
 #include "entidades.h"
-USUARIO* USUARIO::instance = 0;
 
-USUARIO * USUARIO::getInstance()
-{
-    if (instance == 0)
-    {
-        instance = new USUARIO();
-    }
-
-    return instance;
-}
 
 USUARIO::USUARIO() {
         Nome = new nome();

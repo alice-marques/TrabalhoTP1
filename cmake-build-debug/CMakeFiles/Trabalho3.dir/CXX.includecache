@@ -6,81 +6,83 @@
 
 #IncludeRegexTransform: 
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.cpp
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/armazenamento.cpp
+iostream
+-
 armazenamento.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/armazenamento.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/armazenamento.h
 entidades.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/entidades.h
 vector
 -
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.cpp
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaApresentacao.cpp
 iostream
 -
 camadaApresentacao.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaApresentacao.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaApresentacao.h
 camadaServico.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaServico.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.cpp
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaServico.cpp
 iostream
 -
 camadaServico.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaServico.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaServico.h
 armazenamento.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/armazenamento.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.cpp
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/dominios.cpp
 dominios.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/dominios.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/dominios.h
 stdexcept
 -
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.cpp
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/entidades.cpp
 entidades.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/entidades.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/entidades.h
 dominios.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/dominios.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/main.cpp
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/main.cpp
 testes.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testes.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testes.h
 camadaApresentacao.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaApresentacao.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testes.cpp
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testes.cpp
 testes.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testes.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testes.h
 testesEntidades.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testesEntidades.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testesEntidades.h
 stdio.h
 -
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testes.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testes.h
 dominios.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/dominios.h
 string
 -
 iostream
 -
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testesEntidades.cpp
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testesEntidades.cpp
 stdio.h
 -
 testesEntidades.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testesEntidades.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testesEntidades.h
 
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/testesEntidades.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testesEntidades.h
 entidades.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/entidades.h
 

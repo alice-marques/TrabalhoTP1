@@ -10,11 +10,13 @@
 class bancoDeDados{
 private:
     static bancoDeDados* instance;
+    USUARIO *usuario = nullptr;
     vector<USUARIO> usuarios = {};
     bancoDeDados();
 public:
     static bancoDeDados* getInstance();
-    USUARIO* buscaERetornaUsuario(std::string apelido);
-    bool armazena(USUARIO* usuarioRecebido);
+    bool buscaESetaUsuario(std::string apelido);
+    bool armazena(USUARIO usuario1);
+    bool setaUsuario(std::string nome, std::string apelido, std::string telefone, std::string senha);
 };
 #endif //TRABALHO3_ARMAZENAMENTO_H

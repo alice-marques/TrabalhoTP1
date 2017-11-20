@@ -9,7 +9,7 @@
 
 
 processaCadastroUsuario::processaCadastroUsuario() {
-    usuario = USUARIO::getInstance();           //ambos Singletons
+    usuario = new USUARIO();
     bancoDeDados1 = bancoDeDados::getInstance();
 }
 
@@ -38,21 +38,20 @@ bool processaCadastroUsuario::cadastraTelefone() {
 }
 
 bool processaCadastroUsuario::cadastraUsuario() {
-    return bancoDeDados1->armazena(usuario);
+    return bancoDeDados1->armazena(*usuario);
 }
 
 bool processaCadastroUsuario::cadastraSenha() {
     std::cin >> entrada;
     if(usuario->Senha->valida(entrada)){
         usuario->Senha->set_senha(entrada);
-        cadastraUsuario();
         return true;
     }else return false;
 }
 
 bool processaLogIn::checaApelido() {
     std::cin >> entrada;
-    if(!procuraUsuario(entrada)) printf("sdadasdasd");
+    if(!procuraUsuario(entrada));
     return (usuario->Apelido->get_apelido() == entrada);
 }
 
@@ -63,17 +62,10 @@ bool processaLogIn::checaSenha() {
 }
 
 processaLogIn::processaLogIn() {
-    usuario = USUARIO::getInstance();
+    usuario = new USUARIO();
     bancoDeDados1 = bancoDeDados::getInstance();
 }
 
 bool processaLogIn::procuraUsuario(std::string entrada) {
-    if (bancoDeDados1->buscaERetornaUsuario(entrada) != nullptr) {
-        usuario->set_USUARIO(bancoDeDados1->buscaERetornaUsuario(entrada)->Nome->get_nome(),
-                             bancoDeDados1->buscaERetornaUsuario(entrada)->Apelido->get_apelido(),
-                             bancoDeDados1->buscaERetornaUsuario(entrada)->Telefone->get_telefone(),
-                             bancoDeDados1->buscaERetornaUsuario(entrada)->Senha->get_senha());
-        return true;
-
-    }else return false;
+    return bancoDeDados1->buscaESetaUsuario(entrada);
 }

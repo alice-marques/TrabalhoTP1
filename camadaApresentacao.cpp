@@ -33,17 +33,19 @@ menuCadastro::menuCadastro() {
 
 void menuCadastro::menuCadastra() {
     do {
-        std::cout << "Por favor digite o nome desejado(15 caracteres (letras, espaços em branco, ponto):\n>>";
-    }while(!processaCadastroUsuario1->cadastraNome());
-    do {
-        std::cout << "Por favor digite o apelido desejado(5 letras):\n>>";
-    }while(!processaCadastroUsuario1->cadastraApelido());
-    do {
-        std::cout << "Por favor digite o telefone desejado(11 numeros de 0 a 9 sem simbolos adcionais):\n>>";
-    }while(!processaCadastroUsuario1->cadastraTelefone());
-    do {
-        std::cout << "Por favor digite a senha desejada(4 letras sem repeticao):\n>>";
-    }while(!processaCadastroUsuario1->cadastraSenha());
+        do {
+            std::cout << "Por favor digite o nome desejado(15 caracteres (letras, espaços em branco, ponto):\n>>";
+        } while (!processaCadastroUsuario1->cadastraNome());
+        do {
+            std::cout << "Por favor digite o apelido desejado(5 letras):\n>>";
+        } while (!processaCadastroUsuario1->cadastraApelido());
+        do {
+            std::cout << "Por favor digite o telefone desejado(11 numeros de 0 a 9 sem simbolos adcionais):\n>>";
+        } while (!processaCadastroUsuario1->cadastraTelefone());
+        do {
+            std::cout << "Por favor digite a senha desejada(4 letras sem repeticao):\n>>";
+        } while (!processaCadastroUsuario1->cadastraSenha());
+    } while(!processaCadastroUsuario1->cadastraUsuario()) ;
 }
 
 menuLogin::menuLogin() {
