@@ -55,7 +55,7 @@ bool bancoDeDados::armazenaLivro(LIVRO livro) {
 
             i->estante.push_back(*livroAux);
             usuario->estante.push_back(*livroAux);
-            cout << "\nLivro inserido com sucesso\n";
+            cout << "\nLivro inserido com sucesso\n\n";
 
         }
     }
@@ -74,8 +74,8 @@ bool bancoDeDados::numeroDeLivros(LIVRO livro) {
             }
         }
     }
-    if(n >= 5){
-        cout << "Voce ja tem livros de mais na estante\n";
+    if(n >= 10){
+        cout << "\nVoce ja tem livros de mais na estante\n\n";
         return false;
     }
     if(armazenaLivro(livro)) return true;
@@ -91,9 +91,104 @@ bool bancoDeDados::retiraLivro(std::string livro) {
     for(i; i != usuarios.end(); i++){
         if(i->Apelido->get_apelido() == usuario->Apelido->get_apelido()){
             for(est = i->estante.begin(); est != i->estante.end(); est++){
-
+                if(est->Codigo->get_codigo() == livro){
+                    est->deleta_LIVRO();
+                    cout << "\nLivro deletado com sucesso\n\n";
+                    return true;
+                }
             }
+            n+=1;
+        }
+    }
+    cout << "\nO livro não foi encontrado na sua estante\n\n";
+    return false;
+}
+
+bool bancoDeDados::procuraUsuario(string apelido) {
+    USUARIO *user = USUARIO::createAux();
+    auto i = usuarios.begin();
+    for(i; i != usuarios.end(); i++){
+        if(i->Apelido->get_apelido() == apelido) {
+            cout << "\n"
+                 << "O nome do usuario eh: "
+                 << i->Nome->get_nome()
+                 << "\n"
+                 << "O apelido do usuario eh: "
+                 << i->Apelido->get_apelido()
+                 << "\n"
+                 << "O telefone do usuario eh: "
+                 << i->Telefone->get_telefone()
+                 << "\n";
+            return true;
         }
     }
     return false;
 }
+
+bool bancoDeDados::procuraLivro(string livro) {
+    usuario = USUARIO::getInstance();
+    int n = 0;
+    auto i = usuarios.begin();
+    auto est = usuario->estante.begin();
+    for(i; i != usuarios.end(); i++){
+            for(est = i->estante.begin(); est != i->estante.end(); est++){
+                if(est->Titulo->get_titulo() == livro){
+                    cout << "O titulo eh: " << est->Titulo->get_titulo()
+                         << "\nO autor eh: " << est->Nome->get_nome()
+                         << "\nA data de publicacao eh: " << est->Data->get_data()
+                         << "\nO genero eh: " << est->Genero->get_genero()
+                                              << "\n";
+                    return true;
+                }
+            }
+    }
+    return false;
+}
+
+bool bancoDeDados::procuraLivroESetaEmprestimo(string livro, int troca) {
+    usuario = USUARIO::getInstance();
+    int n = 0;
+    auto i = usuarios.begin();
+    auto est = usuario->estante.begin();
+    for(est = usuario->estante.begin(); est != usuario->estante.end(); est++){
+        if(est->Titulo->get_titulo() == livro && troca == 1){
+            est->desejaTrocar = true;
+            return true;
+        }else if(est->Titulo->get_titulo() == livro && troca == 2){
+            est->desejaTrocar = false;
+            return true;
+        }
+    }
+    return false;
+}
+
+bool bancoDeDados::procuraLivroUsuario(string livro) {
+    usuario = USUARIO::getInstance();
+    int n = 0;
+    auto i = usuarios.begin();
+    auto est = usuario->estante.begin();
+    for(est = usuario->estante.begin(); est != usuario->estante.end(); est++){
+        if(est->Titulo->get_titulo() == livro) {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool bancoDeDados::procuraLivroEmprestinmo(string livro) {
+    usuario = USUARIO::getInstance();
+    int n = 0;
+    auto i = usuarios.begin();
+    auto est = usuario->estante.begin();
+    for(i; i != usuarios.end(); i++){
+        for(est = i->estante.begin(); est != i->estante.end(); est++){
+            if(est->Titulo->get_titulo() == livro && est->desejaTrocar){
+                cout << "\n" << i->Apelido->get_apelido() << "\n";
+                n++;
+            }
+
+        }
+    }
+    return n != 0;
+}
+

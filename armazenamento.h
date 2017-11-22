@@ -21,6 +21,11 @@ public:
     bool numeroDeLivros(LIVRO livro);
     bool armazenaLivro(LIVRO livro);
     bool retiraLivro(std::string livro);
+    bool procuraUsuario(string apelido);
+    bool procuraLivro(string livro);
+    bool procuraLivroESetaEmprestimo(string livro, int troca);
+    bool procuraLivroUsuario(string livro);
+    bool procuraLivroEmprestinmo(string livro);
 };
 
 

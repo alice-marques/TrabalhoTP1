@@ -12,6 +12,7 @@ public:
     data *Data = nullptr;
     codigo *Codigo = nullptr;
     genero *Genero = nullptr;
+    bool desejaTrocar = false;
     LIVRO();
     void set_LIVRO(std::string titulo_setado, std::string nome_setado, std::string data_setado, std::string codigo_setado, std::string genero_setado);
     void get_LIVRO(std::string *titulo_setado, std::string *nome_setado, std::string *data_setado, std::string *codigo_setado, std::string *genero_setado);

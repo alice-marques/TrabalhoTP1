@@ -8,28 +8,23 @@
 class processaLogIn{
 private:
     USUARIO *usuario;
-    std::string entrada;
     bancoDeDados* bancoDeDados1;
 public:
     processaLogIn();
-    bool checaApelido();
-    bool checaSenha();
+    bool checaApelido(string apelido);
+    bool checaSenha(string senha);
 };
 
 class processaCadastroUsuario{
 private:
-    std::string nome;
-    std::string apelido;
-    std::string telefone;
-    std::string senha;
     USUARIO *usuario;
     bancoDeDados* bancoDeDados1;
 public:
-    bool cadastraNome();
-    bool cadastraApelido();
-    bool cadastraTelefone();
-    bool cadastraSenha();
-    bool cadastraUsuario();
+    bool cadastraNome(string nome);
+    bool cadastraApelido(string apelido);
+    bool cadastraTelefone(string telefone);
+    bool cadastraSenha(string senha);
+    bool cadastraUsuario(string nome, string apelido, string telefone, string senha);
     processaCadastroUsuario();
 };
 
@@ -39,14 +34,19 @@ private:
     bancoDeDados *bancodedados;
     LIVRO *livro;
 public:
-    bool registraTitulo();
-    bool registraAutor();
-    bool registraCodigo();
-    bool registraData();
-    bool registraGenero();
+    bool registraTitulo(string titulo);
+    bool registraAutor(string autor);
+    bool registraCodigo(string codigo);
+    bool registraData(string data);
+    bool registraGenero(string genero);
     usuarioLogado();
     bool insereLivro();
-    bool retiraLivro();
+    bool retiraLivro(string codigo);
+    bool procuraUsuario(string apelido);
+    bool procuraLivro(string livro);
+    bool procuraLivroESeta(string livro, int opcao);
+    bool procuraLivroUsuario(string livro);
+    bool procuraLivroEmprestimo(string livro);
 };
 
 

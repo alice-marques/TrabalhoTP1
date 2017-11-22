@@ -13,41 +13,35 @@ processaCadastroUsuario::processaCadastroUsuario() {
     bancoDeDados1 = bancoDeDados::getInstance();
 }
 
-bool processaCadastroUsuario::cadastraNome() {
-    std::cin >> nome;
+bool processaCadastroUsuario::cadastraNome(string nome) {
     return usuario->Nome->valida(nome);
 }
 
-bool processaCadastroUsuario::cadastraApelido() {
-    std::cin >> apelido;
+bool processaCadastroUsuario::cadastraApelido(string apelido) {
     return usuario->Apelido->valida(apelido);
 }
 
-bool processaCadastroUsuario::cadastraTelefone() {
-    std::cin >> telefone;
+bool processaCadastroUsuario::cadastraTelefone(string telefone) {
     return usuario->Telefone->valida(telefone);
 }
 
-bool processaCadastroUsuario::cadastraUsuario() {
+bool processaCadastroUsuario::cadastraUsuario(string nome, string apelido, string telefone, string senha) {
     usuario->set_USUARIO(nome, apelido, telefone, senha);
     return bancoDeDados1->armazena();
 }
 
-bool processaCadastroUsuario::cadastraSenha() {
-    std::cin >> senha;
+bool processaCadastroUsuario::cadastraSenha(string senha) {
     return usuario->Senha->valida(senha);
 }
 
-bool processaLogIn::checaApelido() {
-    std::cin >> entrada;
-    if(!bancoDeDados1->buscaESetaUsuario(entrada, usuario));
-    return (entrada == usuario->Apelido->get_apelido());
+bool processaLogIn::checaApelido(string apelido) {
+    if(!bancoDeDados1->buscaESetaUsuario(apelido, usuario));
+    return (apelido == usuario->Apelido->get_apelido());
 }
 
 
-bool processaLogIn::checaSenha() {
-    std::cin >> entrada;
-    return (usuario->Senha->get_senha() == entrada);
+bool processaLogIn::checaSenha(string apelido) {
+    return (usuario->Senha->get_senha() == apelido);
 }
 
 processaLogIn::processaLogIn() {
@@ -66,39 +60,53 @@ bool usuarioLogado::insereLivro() {
     return bancodedados->numeroDeLivros(*livro);
 }
 
-bool usuarioLogado::retiraLivro() {
+bool usuarioLogado::retiraLivro(string codigo) {
+    return bancodedados->retiraLivro(codigo);
+}
+
+bool usuarioLogado::registraTitulo(string titulo) {
+    return livro->Titulo->set_titulo(titulo);
+}
+
+bool usuarioLogado::registraAutor(string autor) {
+    return  livro->Nome->set_nome(autor);
+
+}
+
+bool usuarioLogado::registraCodigo(string codigo) {
+    return livro->Codigo->set_codigo(codigo);
+}
+
+bool usuarioLogado::registraData(string data) {
+    return livro->Data->set_data(data);
+}
+
+bool usuarioLogado::registraGenero(string genero) {
+    return livro->Genero->set_genero(genero);
+}
+
+bool usuarioLogado::procuraUsuario(string apelido) {
+    return bancodedados->procuraUsuario(apelido);
+}
+
+bool usuarioLogado::procuraLivro(string livro) {
+    return bancodedados->procuraLivro(livro);
+}
+
+bool usuarioLogado::procuraLivroESeta(string livro, int opcao) {
+    return bancodedados->procuraLivroESetaEmprestimo(livro, opcao);
+}
+
+bool usuarioLogado::procuraLivroUsuario(string livro) {
+    return bancodedados->procuraLivroUsuario(livro);
+}
+
+bool usuarioLogado::procuraLivroEmprestimo(string livro) {
+    if(bancodedados->procuraLivroEmprestinmo(livro)){
+        return true;
+    }
+    cout << "Livro nao encontrado\n";
     return false;
-}
-
-bool usuarioLogado::registraTitulo() {
-    std::string entrada;
-    cin >> entrada;
-    return livro->Titulo->set_titulo(entrada);
-}
-
-bool usuarioLogado::registraAutor() {
-    std::string entrada;
-    cin >> entrada;
-    return  livro->Nome->set_nome(entrada);
-
-}
-
-bool usuarioLogado::registraCodigo() {
-    std::string entrada;
-    cin >> entrada;
-    return livro->Codigo->set_codigo(entrada);
-}
-
-bool usuarioLogado::registraData() {
-    std::string entrada;
-    cin >> entrada;
-    return livro->Data->set_data(entrada);
-}
-
-bool usuarioLogado::registraGenero() {
-    std::string entrada;
-    cin >> entrada;
-    return livro->Genero->set_genero(entrada);
 }
 
 

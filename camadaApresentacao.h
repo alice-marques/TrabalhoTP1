@@ -9,16 +9,29 @@
 class menuUsuarioLogado{
 private:
     usuarioLogado *usuarioLogado1;
+    string titulo;
+    string autor;
+    string data;
+    string codigo;
+    string genero;
+
 public:
     menuUsuarioLogado();
     void menuUsuario();
     void menuAdciona();
     void menuRemove();
+    void menuProcuraU();
+    void menuTroca();
 };
 
 class menuCadastro{
 private:
     processaCadastroUsuario *processaCadastroUsuario1;
+    string nome;
+    string apelido;
+    string telefone;
+    string senha;
+
 public:
     menuCadastro();
     void menuCadastra();
@@ -28,6 +41,8 @@ class menuLogin{
 private:
     processaLogIn *processaLogIn1;
     menuUsuarioLogado *menuUsuarioLogado1;
+    string apelido;
+    string senha;
 public:
     menuLogin();
     void validaUsuario();
