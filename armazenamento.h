@@ -15,8 +15,15 @@ private:
     bancoDeDados();
 public:
     static bancoDeDados* getInstance();
-    bool buscaESetaUsuario(std::string apelido);
-    bool armazena(USUARIO usuario1);
+    bool buscaESetaUsuario(std::string apelido, USUARIO *user);
+    bool armazena();
     bool setaUsuario(std::string nome, std::string apelido, std::string telefone, std::string senha);
+    bool numeroDeLivros(LIVRO livro);
+    bool armazenaLivro(LIVRO livro);
 };
+
+
+
+
+
 #endif //TRABALHO3_ARMAZENAMENTO_H

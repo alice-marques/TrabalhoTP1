@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1
+CMAKE_SOURCE_DIR = /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Trabalho3.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Trabalho3.dir/flags.make
 
 CMakeFiles/Trabalho3.dir/dominios.cpp.o: CMakeFiles/Trabalho3.dir/flags.make
 CMakeFiles/Trabalho3.dir/dominios.cpp.o: ../dominios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Trabalho3.dir/dominios.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/dominios.cpp.o -c /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/dominios.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Trabalho3.dir/dominios.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/dominios.cpp.o -c /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/dominios.cpp
 
 CMakeFiles/Trabalho3.dir/dominios.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho3.dir/dominios.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/dominios.cpp > CMakeFiles/Trabalho3.dir/dominios.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/dominios.cpp > CMakeFiles/Trabalho3.dir/dominios.cpp.i
 
 CMakeFiles/Trabalho3.dir/dominios.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho3.dir/dominios.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/dominios.cpp -o CMakeFiles/Trabalho3.dir/dominios.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/dominios.cpp -o CMakeFiles/Trabalho3.dir/dominios.cpp.s
 
 CMakeFiles/Trabalho3.dir/dominios.cpp.o.requires:
 
@@ -81,42 +81,18 @@ CMakeFiles/Trabalho3.dir/dominios.cpp.o.provides: CMakeFiles/Trabalho3.dir/domin
 CMakeFiles/Trabalho3.dir/dominios.cpp.o.provides.build: CMakeFiles/Trabalho3.dir/dominios.cpp.o
 
 
-CMakeFiles/Trabalho3.dir/testes.cpp.o: CMakeFiles/Trabalho3.dir/flags.make
-CMakeFiles/Trabalho3.dir/testes.cpp.o: ../testes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Trabalho3.dir/testes.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/testes.cpp.o -c /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testes.cpp
-
-CMakeFiles/Trabalho3.dir/testes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho3.dir/testes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testes.cpp > CMakeFiles/Trabalho3.dir/testes.cpp.i
-
-CMakeFiles/Trabalho3.dir/testes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho3.dir/testes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testes.cpp -o CMakeFiles/Trabalho3.dir/testes.cpp.s
-
-CMakeFiles/Trabalho3.dir/testes.cpp.o.requires:
-
-.PHONY : CMakeFiles/Trabalho3.dir/testes.cpp.o.requires
-
-CMakeFiles/Trabalho3.dir/testes.cpp.o.provides: CMakeFiles/Trabalho3.dir/testes.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/testes.cpp.o.provides.build
-.PHONY : CMakeFiles/Trabalho3.dir/testes.cpp.o.provides
-
-CMakeFiles/Trabalho3.dir/testes.cpp.o.provides.build: CMakeFiles/Trabalho3.dir/testes.cpp.o
-
-
 CMakeFiles/Trabalho3.dir/entidades.cpp.o: CMakeFiles/Trabalho3.dir/flags.make
 CMakeFiles/Trabalho3.dir/entidades.cpp.o: ../entidades.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Trabalho3.dir/entidades.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/entidades.cpp.o -c /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/entidades.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Trabalho3.dir/entidades.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/entidades.cpp.o -c /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/entidades.cpp
 
 CMakeFiles/Trabalho3.dir/entidades.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho3.dir/entidades.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/entidades.cpp > CMakeFiles/Trabalho3.dir/entidades.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/entidades.cpp > CMakeFiles/Trabalho3.dir/entidades.cpp.i
 
 CMakeFiles/Trabalho3.dir/entidades.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho3.dir/entidades.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/entidades.cpp -o CMakeFiles/Trabalho3.dir/entidades.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/entidades.cpp -o CMakeFiles/Trabalho3.dir/entidades.cpp.s
 
 CMakeFiles/Trabalho3.dir/entidades.cpp.o.requires:
 
@@ -129,42 +105,18 @@ CMakeFiles/Trabalho3.dir/entidades.cpp.o.provides: CMakeFiles/Trabalho3.dir/enti
 CMakeFiles/Trabalho3.dir/entidades.cpp.o.provides.build: CMakeFiles/Trabalho3.dir/entidades.cpp.o
 
 
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o: CMakeFiles/Trabalho3.dir/flags.make
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o: ../testesEntidades.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o -c /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testesEntidades.cpp
-
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho3.dir/testesEntidades.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testesEntidades.cpp > CMakeFiles/Trabalho3.dir/testesEntidades.cpp.i
-
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho3.dir/testesEntidades.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/testesEntidades.cpp -o CMakeFiles/Trabalho3.dir/testesEntidades.cpp.s
-
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o.requires:
-
-.PHONY : CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o.requires
-
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o.provides: CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o.provides.build
-.PHONY : CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o.provides
-
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o.provides.build: CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o
-
-
 CMakeFiles/Trabalho3.dir/main.cpp.o: CMakeFiles/Trabalho3.dir/flags.make
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Trabalho3.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/main.cpp.o -c /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Trabalho3.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/main.cpp.o -c /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/main.cpp
 
 CMakeFiles/Trabalho3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho3.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/main.cpp > CMakeFiles/Trabalho3.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/main.cpp > CMakeFiles/Trabalho3.dir/main.cpp.i
 
 CMakeFiles/Trabalho3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho3.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/main.cpp -o CMakeFiles/Trabalho3.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/main.cpp -o CMakeFiles/Trabalho3.dir/main.cpp.s
 
 CMakeFiles/Trabalho3.dir/main.cpp.o.requires:
 
@@ -179,16 +131,16 @@ CMakeFiles/Trabalho3.dir/main.cpp.o.provides.build: CMakeFiles/Trabalho3.dir/mai
 
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o: CMakeFiles/Trabalho3.dir/flags.make
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o: ../camadaApresentacao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o -c /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaApresentacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o -c /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaApresentacao.cpp
 
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaApresentacao.cpp > CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaApresentacao.cpp > CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.i
 
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaApresentacao.cpp -o CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaApresentacao.cpp -o CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.s
 
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o.requires:
 
@@ -203,16 +155,16 @@ CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o.provides.build: CMakeFiles/Tra
 
 CMakeFiles/Trabalho3.dir/camadaServico.cpp.o: CMakeFiles/Trabalho3.dir/flags.make
 CMakeFiles/Trabalho3.dir/camadaServico.cpp.o: ../camadaServico.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Trabalho3.dir/camadaServico.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/camadaServico.cpp.o -c /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaServico.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Trabalho3.dir/camadaServico.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/camadaServico.cpp.o -c /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaServico.cpp
 
 CMakeFiles/Trabalho3.dir/camadaServico.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho3.dir/camadaServico.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaServico.cpp > CMakeFiles/Trabalho3.dir/camadaServico.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaServico.cpp > CMakeFiles/Trabalho3.dir/camadaServico.cpp.i
 
 CMakeFiles/Trabalho3.dir/camadaServico.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho3.dir/camadaServico.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/camadaServico.cpp -o CMakeFiles/Trabalho3.dir/camadaServico.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaServico.cpp -o CMakeFiles/Trabalho3.dir/camadaServico.cpp.s
 
 CMakeFiles/Trabalho3.dir/camadaServico.cpp.o.requires:
 
@@ -227,16 +179,16 @@ CMakeFiles/Trabalho3.dir/camadaServico.cpp.o.provides.build: CMakeFiles/Trabalho
 
 CMakeFiles/Trabalho3.dir/armazenamento.cpp.o: CMakeFiles/Trabalho3.dir/flags.make
 CMakeFiles/Trabalho3.dir/armazenamento.cpp.o: ../armazenamento.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Trabalho3.dir/armazenamento.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/armazenamento.cpp.o -c /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/armazenamento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Trabalho3.dir/armazenamento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Trabalho3.dir/armazenamento.cpp.o -c /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/armazenamento.cpp
 
 CMakeFiles/Trabalho3.dir/armazenamento.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho3.dir/armazenamento.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/armazenamento.cpp > CMakeFiles/Trabalho3.dir/armazenamento.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/armazenamento.cpp > CMakeFiles/Trabalho3.dir/armazenamento.cpp.i
 
 CMakeFiles/Trabalho3.dir/armazenamento.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho3.dir/armazenamento.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/armazenamento.cpp -o CMakeFiles/Trabalho3.dir/armazenamento.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/armazenamento.cpp -o CMakeFiles/Trabalho3.dir/armazenamento.cpp.s
 
 CMakeFiles/Trabalho3.dir/armazenamento.cpp.o.requires:
 
@@ -252,9 +204,7 @@ CMakeFiles/Trabalho3.dir/armazenamento.cpp.o.provides.build: CMakeFiles/Trabalho
 # Object files for target Trabalho3
 Trabalho3_OBJECTS = \
 "CMakeFiles/Trabalho3.dir/dominios.cpp.o" \
-"CMakeFiles/Trabalho3.dir/testes.cpp.o" \
 "CMakeFiles/Trabalho3.dir/entidades.cpp.o" \
-"CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o" \
 "CMakeFiles/Trabalho3.dir/main.cpp.o" \
 "CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o" \
 "CMakeFiles/Trabalho3.dir/camadaServico.cpp.o" \
@@ -264,16 +214,14 @@ Trabalho3_OBJECTS = \
 Trabalho3_EXTERNAL_OBJECTS =
 
 Trabalho3: CMakeFiles/Trabalho3.dir/dominios.cpp.o
-Trabalho3: CMakeFiles/Trabalho3.dir/testes.cpp.o
 Trabalho3: CMakeFiles/Trabalho3.dir/entidades.cpp.o
-Trabalho3: CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o
 Trabalho3: CMakeFiles/Trabalho3.dir/main.cpp.o
 Trabalho3: CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o
 Trabalho3: CMakeFiles/Trabalho3.dir/camadaServico.cpp.o
 Trabalho3: CMakeFiles/Trabalho3.dir/armazenamento.cpp.o
 Trabalho3: CMakeFiles/Trabalho3.dir/build.make
 Trabalho3: CMakeFiles/Trabalho3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Trabalho3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Trabalho3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Trabalho3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -282,9 +230,7 @@ CMakeFiles/Trabalho3.dir/build: Trabalho3
 .PHONY : CMakeFiles/Trabalho3.dir/build
 
 CMakeFiles/Trabalho3.dir/requires: CMakeFiles/Trabalho3.dir/dominios.cpp.o.requires
-CMakeFiles/Trabalho3.dir/requires: CMakeFiles/Trabalho3.dir/testes.cpp.o.requires
 CMakeFiles/Trabalho3.dir/requires: CMakeFiles/Trabalho3.dir/entidades.cpp.o.requires
-CMakeFiles/Trabalho3.dir/requires: CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o.requires
 CMakeFiles/Trabalho3.dir/requires: CMakeFiles/Trabalho3.dir/main.cpp.o.requires
 CMakeFiles/Trabalho3.dir/requires: CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o.requires
 CMakeFiles/Trabalho3.dir/requires: CMakeFiles/Trabalho3.dir/camadaServico.cpp.o.requires
@@ -297,6 +243,6 @@ CMakeFiles/Trabalho3.dir/clean:
 .PHONY : CMakeFiles/Trabalho3.dir/clean
 
 CMakeFiles/Trabalho3.dir/depend:
-	cd /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1 /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1 /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles/Trabalho3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1 /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1 /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles/Trabalho3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Trabalho3.dir/depend
 

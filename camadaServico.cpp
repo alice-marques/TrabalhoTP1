@@ -9,50 +9,39 @@
 
 
 processaCadastroUsuario::processaCadastroUsuario() {
-    usuario = new USUARIO();
+    usuario = USUARIO::getInstance();
     bancoDeDados1 = bancoDeDados::getInstance();
 }
 
 bool processaCadastroUsuario::cadastraNome() {
-    std::cin >> entrada;
-    if(usuario->Nome->valida(entrada)){
-        usuario->Nome->set_nome(entrada);
-        return true;
-    }else return false;
+    std::cin >> nome;
+    return usuario->Nome->valida(nome);
 }
 
 bool processaCadastroUsuario::cadastraApelido() {
-    std::cin >> entrada;
-    if(usuario->Apelido->valida(entrada)){
-        usuario->Apelido->set_apelido(entrada);
-        return true;
-    }else return false;
+    std::cin >> apelido;
+    return usuario->Apelido->valida(apelido);
 }
 
 bool processaCadastroUsuario::cadastraTelefone() {
-    std::cin >> entrada;
-    if(usuario->Telefone->valida(entrada)){
-        usuario->Telefone->set_telefone(entrada);
-        return true;
-    }else return false;
+    std::cin >> telefone;
+    return usuario->Telefone->valida(telefone);
 }
 
 bool processaCadastroUsuario::cadastraUsuario() {
-    return bancoDeDados1->armazena(*usuario);
+    usuario->set_USUARIO(nome, apelido, telefone, senha);
+    return bancoDeDados1->armazena();
 }
 
 bool processaCadastroUsuario::cadastraSenha() {
-    std::cin >> entrada;
-    if(usuario->Senha->valida(entrada)){
-        usuario->Senha->set_senha(entrada);
-        return true;
-    }else return false;
+    std::cin >> senha;
+    return usuario->Senha->valida(senha);
 }
 
 bool processaLogIn::checaApelido() {
     std::cin >> entrada;
-    if(!procuraUsuario(entrada));
-    return (usuario->Apelido->get_apelido() == entrada);
+    if(!bancoDeDados1->buscaESetaUsuario(entrada, usuario));
+    return (entrada == usuario->Apelido->get_apelido());
 }
 
 
@@ -62,10 +51,87 @@ bool processaLogIn::checaSenha() {
 }
 
 processaLogIn::processaLogIn() {
-    usuario = new USUARIO();
+    usuario = USUARIO::getInstance();
     bancoDeDados1 = bancoDeDados::getInstance();
 }
 
-bool processaLogIn::procuraUsuario(std::string entrada) {
-    return bancoDeDados1->buscaESetaUsuario(entrada);
+usuarioLogado::usuarioLogado() {
+    usuario = USUARIO::getInstance();
+    bancodedados = bancoDeDados::getInstance();
+    livro = new LIVRO();
+
 }
+
+bool usuarioLogado::insereLivro() {
+    return bancodedados->numeroDeLivros(*livro);
+}
+
+bool usuarioLogado::retiraLivro() {
+    return false;
+}
+
+bool usuarioLogado::registraTitulo() {
+    cin >> entrada;
+    return livro->Titulo->set_titulo(entrada);
+}
+
+bool usuarioLogado::registraAutor() {
+    cin >> entrada;
+    return  livro->Nome->set_nome(entrada);
+
+}
+
+bool usuarioLogado::registraCodigo() {
+    cin >> entrada;
+    return livro->Codigo->set_codigo(entrada);
+}
+
+bool usuarioLogado::registraData() {
+    cin >> entrada;
+    return livro->Data->set_data(entrada);
+}
+
+bool usuarioLogado::registraGenero() {
+    cin >> entrada;
+    return livro->Genero->set_genero(entrada);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

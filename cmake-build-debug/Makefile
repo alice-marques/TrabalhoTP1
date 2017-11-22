@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1
+CMAKE_SOURCE_DIR = /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/Trabalho
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/media/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/andre/UnB/TP1/Fernando/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/andre/UnB/TP1/Fernando/TrabalhoSemModificacao/TrabalhoTP1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,60 +285,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-testes.o: testes.cpp.o
-
-.PHONY : testes.o
-
-# target to build an object file
-testes.cpp.o:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/testes.cpp.o
-.PHONY : testes.cpp.o
-
-testes.i: testes.cpp.i
-
-.PHONY : testes.i
-
-# target to preprocess a source file
-testes.cpp.i:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/testes.cpp.i
-.PHONY : testes.cpp.i
-
-testes.s: testes.cpp.s
-
-.PHONY : testes.s
-
-# target to generate assembly for a file
-testes.cpp.s:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/testes.cpp.s
-.PHONY : testes.cpp.s
-
-testesEntidades.o: testesEntidades.cpp.o
-
-.PHONY : testesEntidades.o
-
-# target to build an object file
-testesEntidades.cpp.o:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o
-.PHONY : testesEntidades.cpp.o
-
-testesEntidades.i: testesEntidades.cpp.i
-
-.PHONY : testesEntidades.i
-
-# target to preprocess a source file
-testesEntidades.cpp.i:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/testesEntidades.cpp.i
-.PHONY : testesEntidades.cpp.i
-
-testesEntidades.s: testesEntidades.cpp.s
-
-.PHONY : testesEntidades.s
-
-# target to generate assembly for a file
-testesEntidades.cpp.s:
-	$(MAKE) -f CMakeFiles/Trabalho3.dir/build.make CMakeFiles/Trabalho3.dir/testesEntidades.cpp.s
-.PHONY : testesEntidades.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -366,12 +312,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... testes.o"
-	@echo "... testes.i"
-	@echo "... testes.s"
-	@echo "... testesEntidades.o"
-	@echo "... testesEntidades.i"
-	@echo "... testesEntidades.s"
 .PHONY : help
 
 

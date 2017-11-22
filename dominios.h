@@ -17,7 +17,7 @@ private:
     std::string nome;
 public:
     bool valida(std::string nome_validar);
-    void set_nome(std::string nome_recebido) ;
+    bool set_nome(std::string nome_recebido) ;
     std::string get_nome();
 };
 
@@ -53,7 +53,7 @@ private:
     std::string titulo;
 public:
     bool valida(std::string titulo_validar);
-    void set_titulo(std::string titulo) ;
+    bool set_titulo(std::string titulo) ;
     std::string get_titulo();
 };
 
@@ -62,7 +62,7 @@ private:
     std::string data;
 public:
     bool valida(std::string data_validar);
-    void set_data(std::string data) ;
+    bool set_data(std::string data) ;
     std::string get_data();
 };
 
@@ -71,7 +71,7 @@ private:
     std::string codigo;
 public:
     bool valida(std::string codigo_validar);
-    void set_codigo(std::string codigo) ;
+    bool set_codigo(std::string codigo) ;
     std::string get_codigo();
 };
 
@@ -80,7 +80,7 @@ private:
     std::string texto;
 public:
     bool valida(std::string texto_validar);
-    void set_texto(std::string texto) ;
+    bool set_texto(std::string texto) ;
     std::string get_texto();
 };
 
@@ -89,7 +89,7 @@ private:
     std::string genero;
 public:
     bool valida(std::string genero_validar);
-    void set_genero(std::string genero) ;
+    bool set_genero(std::string genero) ;
     std::string get_genero();
 };
 

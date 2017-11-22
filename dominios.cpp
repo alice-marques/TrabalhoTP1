@@ -3,8 +3,9 @@
 //
 
 #include "dominios.h"
+const int valor_ponto = 46;
+const int valor_espaco = 32;
 const int valor_maximo_letra_minuscula = 122;
-const int valor_minimo_letra = 32;
 const int valor_minimo_letra_maiuscula = 65;
 const int valor_maximo_letra_maiuscula = 90;
 const int valor_minimo_letra_minuscula = 97;
@@ -21,22 +22,24 @@ const char conto[6] = "CONTO";
 bool nome::valida(std::string nome_validar) {
     int indice = 0;
     while(nome_validar[indice] != '\0'){
-        if((nome_validar[indice] > valor_maximo_letra_minuscula) ||
-           (nome_validar[indice] < valor_minimo_letra) ||
-           ((nome_validar[indice] > valor_minimo_letra) &&
-            (nome_validar[indice] < valor_minimo_letra_maiuscula)) ||
+        if(((nome_validar[indice] > valor_maximo_letra_minuscula) ||
+            (nome_validar[indice] < valor_minimo_letra_maiuscula) &&
+            (nome_validar[indice] != valor_ponto) && (nome_validar[indice] != valor_espaco)) ||
            ((nome_validar[indice] > valor_maximo_letra_maiuscula) &&
-            nome_validar[indice] < valor_minimo_letra_minuscula))
+            (nome_validar[indice] < valor_minimo_letra_minuscula)))
             return false;
         indice++;
         if(indice > 16) return false;
     }
-
     return true;
 }
 
-void nome::set_nome(std::string nome_recebido){
-    if( valida(nome_recebido) ) nome = nome_recebido;
+bool nome::set_nome(std::string nome_recebido){
+    if( valida(nome_recebido) ) {
+        nome = nome_recebido;
+        return true;
+    }
+    return false;
 }
 
 std::string nome::get_nome(){
@@ -46,14 +49,16 @@ std::string nome::get_nome(){
 bool apelido::valida(std::string apelido_validar) {
     int indice = 0;
     while(apelido_validar[indice] != '\0'){
-        if(indice > 5) return false;
+        if ((apelido_validar[indice] < valor_minimo_letra_maiuscula) ||
+            ((apelido_validar[indice] > valor_maximo_letra_maiuscula) &&
+             (apelido_validar[indice] < valor_minimo_letra_minuscula)) ||
+            (apelido_validar[indice] > valor_maximo_letra_minuscula))
+            return false;
         indice++;
-        if(indice > 6) return false;
+        if(indice > 5) return false;
     }
-
     return true;
 }
-
 void apelido::set_apelido(std::string apelido_recebido) {
     if( valida(apelido_recebido) ) apelido = apelido_recebido;
 }
@@ -67,7 +72,7 @@ bool telefone::valida(std::string telefone_validar) {
     while(telefone_validar[indice] != '\0'){
         if(telefone_validar[indice] > valor_maximo_numero || telefone_validar[indice] < valor_minimo_numero) return false;
         indice++;
-        if(indice > 12) return false;
+        if(indice > 11) return false;
     }
     return true;
 }
@@ -90,7 +95,7 @@ bool senha::valida(std::string senha_validar) {
             return false;
         indice++;
         if(senha_validar[indice] == senha_validar[indice-1]) return false;
-        if(indice > 6) return false;
+        if(indice > 4) return false;
     }
     return true;
 }
@@ -114,8 +119,12 @@ bool titulo::valida(std::string titulo_validar) {
     return true;
 }
 
-void titulo::set_titulo(std::string titulo_recebido) {
-    if( valida(titulo_recebido)) titulo = titulo_recebido;
+bool titulo::set_titulo(std::string titulo_recebido) {
+    if( valida(titulo_recebido)) {
+        titulo = titulo_recebido;
+        return true;
+    }
+    return false;
 }
 
 std::string titulo::get_titulo(){
@@ -129,12 +138,15 @@ bool data::valida(std::string data_validar) {
         indice++;
         if(indice > 7) return false;
     }
-    if(data_validar[0] > 51 || ((data_validar[0] == 51) && (data_validar[1] > 49)) || (data_validar[2] > 49 || (data_validar[2] == 49 && data_validar[3] > 50))) return false;
-    return true;
+    return !(data_validar[0] > 51 || ((data_validar[0] == 51) && (data_validar[1] > 49)) || (data_validar[2] > 49 || (data_validar[2] == 49 && data_validar[3] > 50)));
 }
 
-void data::set_data(std::string data_recebido) {
-    if(valida(data_recebido)) data = data_recebido;
+bool data::set_data(std::string data_recebido) {
+    if(valida(data_recebido)){
+        data = data_recebido;
+        return true;
+    }
+    return false;
 }
 
 std::string data::get_data(){
@@ -151,8 +163,12 @@ bool codigo::valida(std::string codigo_validar) {
     return true;
 }
 
-void codigo::set_codigo(std::string codigo_recebido) {
-    if( valida(codigo_recebido) ) codigo = codigo_recebido;
+bool codigo::set_codigo(std::string codigo_recebido) {
+    if(valida(codigo_recebido)){
+        codigo = codigo_recebido;
+        return true;
+    }
+    return false;
 }
 
 std::string codigo::get_codigo(){
@@ -168,8 +184,12 @@ bool texto::valida(std::string texto_validar) {
     return true;
 }
 
-void texto::set_texto(std::string texto_recebido) {
-    if( valida(texto_recebido) ) texto = texto_recebido;
+bool texto::set_texto(std::string texto_recebido) {
+    if(valida(texto_recebido)){
+        texto = texto_recebido;
+        return true;
+    }
+    return false;
 }
 
 std::string texto::get_texto(){
@@ -186,8 +206,12 @@ bool genero::valida(std::string genero_validar) {
     return true;
 }
 
-void genero::set_genero(std::string genero_recebido) {
-    if( valida(genero_recebido) ) genero = genero_recebido;
+bool genero::set_genero(std::string genero_recebido) {
+    if(valida(genero_recebido)){
+        genero = genero_recebido;
+        return true;
+    }
+    return false;
 }
 
 std::string genero::get_genero(){
