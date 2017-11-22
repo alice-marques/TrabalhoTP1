@@ -147,17 +147,30 @@ bool bancoDeDados::procuraLivro(string livro) {
 
 bool bancoDeDados::procuraLivroESetaEmprestimo(string livro, int troca) {
     usuario = USUARIO::getInstance();
-    int n = 0;
+    int n = 0, m = 0;
     auto i = usuarios.begin();
     auto est = usuario->estante.begin();
     for(est = usuario->estante.begin(); est != usuario->estante.end(); est++){
         if(est->Titulo->get_titulo() == livro && troca == 1){
-            est->desejaTrocar = true;
+            usuario->estante[n].desejaTrocar = true;
+            for(i; i != usuarios.end(); i++){
+                if(i->Apelido->get_apelido() == usuario->Apelido->get_apelido()){
+                    usuarios[m].estante[n].desejaTrocar = true;
+                }
+                m++;
+            }
             return true;
         }else if(est->Titulo->get_titulo() == livro && troca == 2){
-            est->desejaTrocar = false;
+            usuario->estante[n].desejaTrocar = false;
+            for(i; i != usuarios.end(); i++){
+                if(i->Apelido->get_apelido() == usuario->Apelido->get_apelido()){
+                    usuarios[m].estante[n].desejaTrocar = false;
+                }
+                m++;
+            }
             return true;
         }
+        n++;
     }
     return false;
 }
@@ -177,13 +190,17 @@ bool bancoDeDados::procuraLivroUsuario(string livro) {
 
 bool bancoDeDados::procuraLivroEmprestinmo(string livro) {
     usuario = USUARIO::getInstance();
-    int n = 0;
+    int n = 0, j = 0;
     auto i = usuarios.begin();
     auto est = usuario->estante.begin();
     for(i; i != usuarios.end(); i++){
         for(est = i->estante.begin(); est != i->estante.end(); est++){
             if(est->Titulo->get_titulo() == livro && est->desejaTrocar){
-                cout << "\n" << i->Apelido->get_apelido() << "\n";
+                if(j == 0){
+                    cout << "\nContacte o(s) usuario(s):\n";
+                    j++;
+                }
+                cout  << i->Apelido->get_apelido() << "\n";
                 n++;
             }
 
