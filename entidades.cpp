@@ -3,11 +3,12 @@
 //
 
 #include "entidades.h"
-USUARIO* USUARIO::instance = 0;
+
+USUARIO* USUARIO::instance = nullptr;
 
 USUARIO * USUARIO::getInstance()
 {
-    if (instance == 0)
+    if (instance == nullptr)
     {
         instance = new USUARIO();
     }
@@ -16,10 +17,11 @@ USUARIO * USUARIO::getInstance()
 }
 
 USUARIO::USUARIO() {
-        Nome = new nome();
-        Apelido = new apelido();
-        Telefone = new telefone();
-        Senha = new senha();
+    Nome = new nome();
+    Apelido = new apelido();
+    Telefone = new telefone();
+    Senha = new senha();
+    estante = {};
 
 
 }
@@ -46,28 +48,36 @@ void USUARIO::deleta_USUARIO() {
     delete Senha;
 }
 
+USUARIO *USUARIO::createAux() {
+    if(instance == nullptr) return nullptr;
+    else return new USUARIO;
+}
+
 
 LIVRO::LIVRO() {
         Titulo = new titulo();
+        Nome = new nome();
         Data = new data();
         Codigo = new codigo();
         Genero = new genero();
 
 }
-void LIVRO::set_LIVRO(std::string Titulo_setado, std::string Data_setado, std::string Codigo_setado,
-                      std::string Genero_setado) {
-    Titulo->set_titulo(Titulo_setado);
-    Data->set_data(Data_setado);
-    Codigo->set_codigo(Codigo_setado);
-    Genero->set_genero(Genero_setado);
+void LIVRO::set_LIVRO(std::string titulo_setado, std::string nome_setado, std::string data_setado, std::string codigo_setado,
+                      std::string genero_setado) {
+    Titulo->set_titulo(titulo_setado);
+    Nome->set_nome(nome_setado);
+    Data->set_data(data_setado);
+    Codigo->set_codigo(codigo_setado);
+    Genero->set_genero(genero_setado);
 }
 
-void LIVRO::get_LIVRO(std::string *Titulo_setado, std::string *Data_setado, std::string *Codigo_setado,
-                      std::string *Genero_setado) {
-    *Titulo_setado = Titulo->get_titulo();
-    *Data_setado = Data->get_data();
-    *Codigo_setado = Codigo->get_codigo();
-    *Genero_setado = Genero->get_genero();
+void LIVRO::get_LIVRO(std::string *titulo_setado, std::string *nome_setado, std::string *data_setado, std::string *codigo_setado,
+                      std::string *genero_setado) {
+    *titulo_setado = Titulo->get_titulo();
+    *nome_setado = Nome->get_nome();
+    *data_setado = Data->get_data();
+    *codigo_setado = Codigo->get_codigo();
+    *genero_setado = Genero->get_genero();
 }
 
 void LIVRO::deleta_LIVRO() {

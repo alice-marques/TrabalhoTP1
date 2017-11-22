@@ -5,6 +5,16 @@
 #ifndef TRABALHO3_CAMADAAPRESENTACAO_H
 #define TRABALHO3_CAMADAAPRESENTACAO_H
 
+
+class menuUsuarioLogado{
+private:
+    usuarioLogado *usuarioLogado1;
+public:
+    menuUsuarioLogado();
+    void menuUsuario();
+    void menuAdciona();
+};
+
 class menuCadastro{
 private:
     processaCadastroUsuario *processaCadastroUsuario1;
@@ -16,8 +26,8 @@ public:
 class menuLogin{
 private:
     processaLogIn *processaLogIn1;
+    menuUsuarioLogado *menuUsuarioLogado1;
 public:
-    std::string entrada;
     menuLogin();
     void validaUsuario();
 
@@ -31,6 +41,7 @@ public:
     menu1();
     void primeiroMenu();
 };
+
 
 
 

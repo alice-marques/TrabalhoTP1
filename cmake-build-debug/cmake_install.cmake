@@ -1,4 +1,4 @@
-# Install script for directory: /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1
+# Install script for directory: /home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

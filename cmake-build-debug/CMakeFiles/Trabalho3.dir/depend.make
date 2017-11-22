@@ -32,16 +32,4 @@ CMakeFiles/Trabalho3.dir/main.cpp.o: ../camadaServico.h
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../dominios.h
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../entidades.h
 CMakeFiles/Trabalho3.dir/main.cpp.o: ../main.cpp
-CMakeFiles/Trabalho3.dir/main.cpp.o: ../testes.h
-
-CMakeFiles/Trabalho3.dir/testes.cpp.o: ../dominios.h
-CMakeFiles/Trabalho3.dir/testes.cpp.o: ../entidades.h
-CMakeFiles/Trabalho3.dir/testes.cpp.o: ../testes.cpp
-CMakeFiles/Trabalho3.dir/testes.cpp.o: ../testes.h
-CMakeFiles/Trabalho3.dir/testes.cpp.o: ../testesEntidades.h
-
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o: ../dominios.h
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o: ../entidades.h
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o: ../testesEntidades.cpp
-CMakeFiles/Trabalho3.dir/testesEntidades.cpp.o: ../testesEntidades.h
 

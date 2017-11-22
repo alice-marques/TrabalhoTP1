@@ -14,12 +14,14 @@ public:
     processaLogIn();
     bool checaApelido();
     bool checaSenha();
-    bool procuraUsuario(string entrada);
 };
 
 class processaCadastroUsuario{
 private:
-    std::string entrada;
+    std::string nome;
+    std::string apelido;
+    std::string telefone;
+    std::string senha;
     USUARIO *usuario;
     bancoDeDados* bancoDeDados1;
 public:
@@ -31,6 +33,22 @@ public:
     processaCadastroUsuario();
 };
 
+class usuarioLogado{
+private:
+    USUARIO *usuario;
+    bancoDeDados *bancodedados;
+    LIVRO *livro;
+    std::string entrada;
+public:
+    bool registraTitulo();
+    bool registraAutor();
+    bool registraCodigo();
+    bool registraData();
+    bool registraGenero();
+    usuarioLogado();
+    bool insereLivro();
+    bool retiraLivro();
+};
 
 
 
