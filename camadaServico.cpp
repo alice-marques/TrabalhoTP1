@@ -71,27 +71,32 @@ bool usuarioLogado::retiraLivro() {
 }
 
 bool usuarioLogado::registraTitulo() {
+    std::string entrada;
     cin >> entrada;
     return livro->Titulo->set_titulo(entrada);
 }
 
 bool usuarioLogado::registraAutor() {
+    std::string entrada;
     cin >> entrada;
     return  livro->Nome->set_nome(entrada);
 
 }
 
 bool usuarioLogado::registraCodigo() {
+    std::string entrada;
     cin >> entrada;
     return livro->Codigo->set_codigo(entrada);
 }
 
 bool usuarioLogado::registraData() {
+    std::string entrada;
     cin >> entrada;
     return livro->Data->set_data(entrada);
 }
 
 bool usuarioLogado::registraGenero() {
+    std::string entrada;
     cin >> entrada;
     return livro->Genero->set_genero(entrada);
 }

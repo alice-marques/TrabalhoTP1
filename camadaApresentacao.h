@@ -13,6 +13,7 @@ public:
     menuUsuarioLogado();
     void menuUsuario();
     void menuAdciona();
+    void menuRemove();
 };
 
 class menuCadastro{

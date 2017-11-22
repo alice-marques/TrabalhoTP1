@@ -2,6 +2,7 @@
 // Created by andre on 9/13/17.
 //
 
+#include <iostream>
 #include "dominios.h"
 const int valor_ponto = 46;
 const int valor_espaco = 32;
@@ -11,11 +12,11 @@ const int valor_maximo_letra_maiuscula = 90;
 const int valor_minimo_letra_minuscula = 97;
 const int valor_minimo_numero = 48;
 const int valor_maximo_numero = 57;
-const char epopeia[8] = "EPOPEIA";
-const char romance[8] = "ROMANCE";
-const char novela[7] = "NOVELA";
-const char ensaio[7] = "ENSAIO";
-const char conto[6] = "CONTO";
+const string epopeia = "EPOPEIA";
+const string romance = "ROMANCE";
+const string novela = "NOVELA";
+const string ensaio = "ENSAIO";
+const string conto = "CONTO";
 
 
 
@@ -197,13 +198,7 @@ std::string texto::get_texto(){
 }
 
 bool genero::valida(std::string genero_validar) {
-    int indice = 0;
-    while(genero_validar[indice] != '\0') {
-        if (genero_validar[indice] != epopeia[indice] && genero_validar[indice] != romance[indice] && genero_validar[indice] != novela[indice] && genero_validar[indice] != ensaio[indice] && genero_validar[indice] != conto[indice])
-            return false;
-        indice++;
-    }
-    return true;
+    return (genero_validar == epopeia || genero_validar == conto || genero_validar == romance || genero_validar == novela || genero_validar == ensaio);
 }
 
 bool genero::set_genero(std::string genero_recebido) {

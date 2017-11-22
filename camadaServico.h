@@ -38,7 +38,6 @@ private:
     USUARIO *usuario;
     bancoDeDados *bancodedados;
     LIVRO *livro;
-    std::string entrada;
 public:
     bool registraTitulo();
     bool registraAutor();

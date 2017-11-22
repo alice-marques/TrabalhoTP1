@@ -22,7 +22,6 @@ bool bancoDeDados::setaUsuario(std::string nome, std::string apelido, std::strin
 bool bancoDeDados::buscaESetaUsuario(std::string apelido, USUARIO *user) {
     auto i = usuarios.begin();
     for(i; i != usuarios.end(); i++ ){
-        cout << i->Apelido->get_apelido();
         if(i->Apelido->get_apelido() == apelido)
             return setaUsuario(i->Nome->get_nome(), i->Apelido->get_apelido(), i->Telefone->get_telefone(),
                                i->Senha->get_senha());
@@ -41,39 +40,60 @@ bool bancoDeDados::armazena() {
 }
 
 bool bancoDeDados::armazenaLivro(LIVRO livro) {
+    auto *livroAux = new LIVRO();
     usuario = USUARIO::getInstance();
+    livroAux->set_LIVRO(livro.Titulo->get_titulo(), livro.Nome->get_nome(), livro.Data->get_data(), livro.Codigo->get_codigo(), livro.Genero->get_genero());
     auto i = usuarios.begin();
-    auto est = usuario->estante->begin();
-    /*for(i; i != usuarios.end(); i++){
+    auto est = usuario->estante.begin();
+    for(i; i != usuarios.end(); i++){
         if(i->Apelido->get_apelido() == usuario->Apelido->get_apelido()){
-            for(est = usuario->estante->begin(); est != i->estante->end(); est++){
+
+            for(est = i->estante.begin(); est != i->estante.end(); est++){
+
                 if(est->Codigo->get_codigo() == livro.Codigo->get_codigo()) return false;
             }
-            i->estante->push_back(livro);
-            usuario->estante->push_back(livro);
+
+            i->estante.push_back(*livroAux);
+            usuario->estante.push_back(*livroAux);
+            cout << "\nLivro inserido com sucesso\n";
+
         }
-    }*/
+    }
     return true;
 }
 
 bool bancoDeDados::numeroDeLivros(LIVRO livro) {
     usuario = USUARIO::getInstance();
-    int n = 0;
+    int n = 1;
     auto i = usuarios.begin();
-    auto est = usuario->estante->begin();
-    /*for(i; i != usuarios.end(); i++){
+    auto est = usuario->estante.begin();
+    for(i; i != usuarios.end(); i++){
         if(i->Apelido->get_apelido() == usuario->Apelido->get_apelido()){
-            for(est = usuario->estante->begin(); est != i->estante->end(); est++){
-                n++;
+            for(est = i->estante.begin(); est != i->estante.end(); est++){
+                n+=1;
             }
         }
     }
-    if(n >= 10){
+    if(n >= 5){
         cout << "Voce ja tem livros de mais na estante\n";
         return false;
     }
     if(armazenaLivro(livro)) return true;
-    cout << "Livro ja esta na estante";
-    return false;*/
-    return true;
+    cout << "\nO livro ja esta na estante\n\n";
+    return false;
+}
+
+bool bancoDeDados::retiraLivro(std::string livro) {
+    usuario = USUARIO::getInstance();
+    int n = 0;
+    auto i = usuarios.begin();
+    auto est = usuario->estante.begin();
+    for(i; i != usuarios.end(); i++){
+        if(i->Apelido->get_apelido() == usuario->Apelido->get_apelido()){
+            for(est = i->estante.begin(); est != i->estante.end(); est++){
+
+            }
+        }
+    }
+    return false;
 }

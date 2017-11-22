@@ -109,3 +109,10 @@ menuUsuarioLogado::menuUsuarioLogado() {
 
 }
 
+void menuUsuarioLogado::menuRemove() {
+    do{
+        cout << " Digite o codigo do livro a ser retirado:\n>>";
+    }while(true);
+
+}
+

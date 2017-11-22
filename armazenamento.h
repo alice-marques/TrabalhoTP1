@@ -20,6 +20,7 @@ public:
     bool setaUsuario(std::string nome, std::string apelido, std::string telefone, std::string senha);
     bool numeroDeLivros(LIVRO livro);
     bool armazenaLivro(LIVRO livro);
+    bool retiraLivro(std::string livro);
 };
 
 

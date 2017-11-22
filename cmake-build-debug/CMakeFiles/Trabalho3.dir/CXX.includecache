@@ -6,57 +6,59 @@
 
 #IncludeRegexTransform: 
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/armazenamento.cpp
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.cpp
 iostream
 -
 armazenamento.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/armazenamento.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/armazenamento.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
 entidades.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/entidades.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
 vector
 -
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaApresentacao.cpp
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.cpp
 iostream
 -
 camadaApresentacao.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaApresentacao.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.h
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaApresentacao.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.h
 camadaServico.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaServico.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaServico.cpp
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.cpp
 iostream
 -
 camadaServico.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaServico.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaServico.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
 armazenamento.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/armazenamento.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/dominios.cpp
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.cpp
+iostream
+-
 dominios.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/dominios.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/dominios.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
 stdexcept
 -
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/entidades.cpp
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.cpp
 entidades.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/entidades.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/entidades.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
 vector
 -
 dominios.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/dominios.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
 
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/main.cpp
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/main.cpp
 camadaApresentacao.h
-/home/andre/UnB/TP1/Fernando/T3/Devel/TrabalhoTP1/camadaApresentacao.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.h
 

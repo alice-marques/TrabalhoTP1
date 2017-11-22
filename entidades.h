@@ -23,7 +23,7 @@ private:
     static USUARIO* instance;
     USUARIO();
 public:
-    vector<LIVRO> *estante;
+    vector<LIVRO> estante;
     static USUARIO *getInstance();
     static USUARIO *createAux();
     nome *Nome = nullptr;
