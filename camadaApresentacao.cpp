@@ -35,14 +35,15 @@ void menuCadastro::menuCadastra() {
     do {
         do {
             std::cout << "Por favor digite o nome desejado(15 caracteres (letras, espaços em branco, ponto):\n>>";
-            cin >> nome;
+            getchar();
+            std::getline(std::cin,nome);
         } while (!processaCadastroUsuario1->cadastraNome(nome));
         do {
             std::cout << "Por favor digite o apelido desejado(5 letras):\n>>";
             cin >> apelido;
         } while (!processaCadastroUsuario1->cadastraApelido(apelido));
         do {
-            std::cout << "Por favor digite o telefone desejado(11 numeros de 0 a 9 sem simbolos adcionais):\n>>";
+            std::cout << "Por favor digite o telefone desejado(11 numeros de 0 a 9 sem simbolos adicionais):\n>>";
             cin >> telefone;
         } while (!processaCadastroUsuario1->cadastraTelefone(telefone));
         do {
@@ -81,7 +82,7 @@ void menuUsuarioLogado::menuUsuario() {
             cout << "Seja bem vindo ao sistema de livros" << "\n"
                  << "Pressione:"
                  << "\n"
-                 << "1. Para adcionar um livro"
+                 << "1. Para adicionar um livro"
                  << "\n"
                  << "2. Para remover um livro"
                  << "\n"
@@ -104,7 +105,8 @@ void menuUsuarioLogado::menuUsuario() {
         else if (entrada == 5) {
             do{
                 cout << "Digite o nome do livro:\n>>";
-                cin >> livro;
+                getchar();
+                getline(cin,livro);
             }while(!usuarioLogado1->procuraLivro(livro));
         };
 
@@ -113,23 +115,26 @@ void menuUsuarioLogado::menuUsuario() {
 
 void menuUsuarioLogado::menuAdciona() {
     do{
-        cout << "Digite o titulo do livro a ser adcionado (20 caracteres sem espaço em branco duplo):\n>>";
-        cin >> titulo;
+        cout << "Digite o titulo do livro a ser adicionado (20 caracteres sem espaço em branco duplo):\n>>";
+
+        getchar();
+        getline(cin,titulo);
     }while (!usuarioLogado1->registraTitulo(titulo));
     do{
-        cout << "Digite o autor do livro a ser adcionado (15 caracteres):\n>>";
-        cin >> autor;
+        cout << "Digite o autor do livro a ser adicionado (15 caracteres):\n>>";
+        getchar();
+       getline(cin,autor);
     }while (!usuarioLogado1->registraAutor(autor));
     do{
-        cout << "Digite a data do livro a ser adcionado (dd/mm/aa):\n>>";
+        cout << "Digite a data do livro a ser adicionado (dd/mm/aa):\n>>";
         cin >> data;
     }while (!usuarioLogado1->registraData(data));
     do{
-        cout << "Digite o codigo do livro a ser adcionado (5 numeros de 0 a 9):\n>>";
+        cout << "Digite o codigo do livro a ser adicionado (5 numeros de 0 a 9):\n>>";
         cin >> codigo;
     }while (!usuarioLogado1->registraCodigo(codigo));
     do{
-        cout << "Digite o genero do livro a ser adcionado (EPOPEIA, NOVELA, CONTO, ENSAIO, ROMANCE):\n>>";
+        cout << "Digite o genero do livro a ser adicionado (EPOPEIA, NOVELA, CONTO, ENSAIO, ROMANCE):\n>>";
         cin >> genero;
     }while (!usuarioLogado1->registraGenero(genero));
     usuarioLogado1->insereLivro();
@@ -173,7 +178,8 @@ void menuUsuarioLogado::menuTroca() {
         if(entrada == 1) {
             do {
                 cout << "Digite o nome do livro:\n>>";
-                cin >> livro;
+                getchar();
+                getline(cin, livro);
             }while(!usuarioLogado1->procuraLivroUsuario(livro));
             do{
                 cout << "Selecione 1 para trocar e 2 para nao trocar\n>>";
@@ -182,7 +188,8 @@ void menuUsuarioLogado::menuTroca() {
         }
         if(entrada == 2) {
             cout << "Digite o nome do livro para pegar emprestado:\n>>";
-            cin >> livro;
+            getchar();
+            getline(cin, livro);
             usuarioLogado1->procuraLivroEmprestimo(livro);
         };
 

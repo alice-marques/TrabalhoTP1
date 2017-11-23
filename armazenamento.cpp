@@ -137,7 +137,7 @@ bool bancoDeDados::procuraLivro(string livro) {
                          << "\nO autor eh: " << est->Nome->get_nome()
                          << "\nA data de publicacao eh: " << est->Data->get_data()
                          << "\nO genero eh: " << est->Genero->get_genero()
-                                              << "\n";
+                                              << "\n\n";
                     return true;
                 }
             }
@@ -177,7 +177,6 @@ bool bancoDeDados::procuraLivroESetaEmprestimo(string livro, int troca) {
 
 bool bancoDeDados::procuraLivroUsuario(string livro) {
     usuario = USUARIO::getInstance();
-    int n = 0;
     auto i = usuarios.begin();
     auto est = usuario->estante.begin();
     for(est = usuario->estante.begin(); est != usuario->estante.end(); est++){
@@ -206,6 +205,7 @@ bool bancoDeDados::procuraLivroEmprestinmo(string livro) {
 
         }
     }
+    cout << "\n";
     return n != 0;
 }
 
