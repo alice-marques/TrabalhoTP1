@@ -2,10 +2,10 @@
 // Created by andre on 11/6/17.
 //
 #include "armazenamento.h"
-#ifndef TRABALHO3_INTERFACES_H
-#define TRABALHO3_INTERFACES_H
+#ifndef TRABALHO3_CAMADASERVICO_H
+#define TRABALHO3_CAMADASERVICO_H
 
-class processaLogIn{
+class processaLogIn: public ProcessaLogIn{
 private:
     USUARIO *usuario;
     bancoDeDados* bancoDeDados1;
@@ -15,7 +15,7 @@ public:
     bool checaSenha(string senha);
 };
 
-class processaCadastroUsuario{
+class processaCadastroUsuario: public ProcessaCadastroUsuario{
 private:
     USUARIO *usuario;
     bancoDeDados* bancoDeDados1;
@@ -28,7 +28,7 @@ public:
     processaCadastroUsuario();
 };
 
-class usuarioLogado{
+class usuarioLogado: public UsuarioLogado{
 private:
     USUARIO *usuario;
     bancoDeDados *bancodedados;

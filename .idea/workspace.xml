@@ -12,13 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ecdfc7-81c9-43d2-a798-b7a573289cdf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/armazenamento.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/armazenamento.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho3" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho3" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/armazenamento.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaServico.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/armazenamento.cpp" afterPath="$PROJECT_DIR$/armazenamento.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camadaApresentacao.cpp" afterPath="$PROJECT_DIR$/camadaApresentacao.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/armazenamento.h" afterPath="$PROJECT_DIR$/armazenamento.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camadaServico.h" afterPath="$PROJECT_DIR$/camadaServico.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho3.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho3.cbp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,18 +40,18 @@
       <file leaf-file-name="camadaApresentacao.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/camadaApresentacao.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camadaApresentacao.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="camadaApresentacao.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/camadaApresentacao.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
+            <state relative-caret-position="2160">
+              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -52,13 +59,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="interfaces.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interfaces.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="armazenamento.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/armazenamento.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="73">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <element signature="e#39#61#0" expanded="true" />
+                <element signature="e#39#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/armazenamento.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="195" column="70" lean-forward="true" selection-start-line="195" selection-start-column="70" selection-end-line="195" selection-end-column="70" />
+              <caret line="195" column="70" lean-forward="false" selection-start-line="195" selection-start-column="70" selection-end-line="195" selection-end-column="70" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -79,8 +96,8 @@
       <file leaf-file-name="camadaServico.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/camadaServico.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+            <state relative-caret-position="103">
+              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -89,7 +106,7 @@
       <file leaf-file-name="camadaServico.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/camadaServico.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
+            <state relative-caret-position="120">
               <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
@@ -113,6 +130,9 @@
       <find>noskipws</find>
       <find>getline</find>
       <find>adciona</find>
+      <find>cx</find>
+      <find>bool</find>
+      <find>)</find>
     </findStrings>
     <replaceStrings>
       <replace>nullptr</replace>
@@ -123,6 +143,9 @@
       <replace>estante.</replace>
       <replace>cin &gt;&gt; noskipws &gt;&gt;</replace>
       <replace>adiciona</replace>
+      <replace>virtual</replace>
+      <replace>virtual bool</replace>
+      <replace>) = 0</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -135,7 +158,6 @@
         <option value="$PROJECT_DIR$/Interfaces.cpp" />
         <option value="$PROJECT_DIR$/Interfaces.h" />
         <option value="$PROJECT_DIR$/Connection.h" />
-        <option value="$PROJECT_DIR$/interfaces.h" />
         <option value="$PROJECT_DIR$/interfaces.cpp" />
         <option value="$PROJECT_DIR$/dominios.h" />
         <option value="$PROJECT_DIR$/entidades.cpp" />
@@ -144,11 +166,12 @@
         <option value="$PROJECT_DIR$/dominios.cpp" />
         <option value="$PROJECT_DIR$/entidades.h" />
         <option value="$PROJECT_DIR$/camadaApresentacao.h" />
-        <option value="$PROJECT_DIR$/armazenamento.h" />
-        <option value="$PROJECT_DIR$/camadaServico.h" />
         <option value="$PROJECT_DIR$/camadaServico.cpp" />
         <option value="$PROJECT_DIR$/armazenamento.cpp" />
         <option value="$PROJECT_DIR$/camadaApresentacao.cpp" />
+        <option value="$PROJECT_DIR$/armazenamento.h" />
+        <option value="$PROJECT_DIR$/camadaServico.h" />
+        <option value="$PROJECT_DIR$/interfaces.h" />
       </list>
     </option>
   </component>
@@ -271,24 +294,23 @@
       <workItem from="1511195910112" duration="6040000" />
       <workItem from="1511214556121" duration="3531000" />
       <workItem from="1511285981415" duration="11247000" />
-      <workItem from="1511438603173" duration="1637000" />
+      <workItem from="1511438603173" duration="3104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69124000" />
+    <option name="totallyTimeSpent" value="70591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="24" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3235725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27230048" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4710485" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1658842" sideWeight="0.50292826" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28794992" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28794992" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -337,16 +359,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/entidades.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#38#55#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entidades.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
@@ -359,6 +371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -366,6 +379,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
           <caret line="180" column="43" lean-forward="false" selection-start-line="180" selection-start-column="43" selection-end-line="180" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+            <element signature="e#39#58#0" expanded="false" />
+            <element signature="e#556#1140#0" expanded="false" />
+            <element signature="e#1142#1300#0" expanded="false" />
+            <element signature="e#1352#1862#0" expanded="false" />
+            <element signature="e#1863#1985#0" expanded="false" />
+            <element signature="e#1987#2044#0" expanded="false" />
+            <element signature="e#2046#2368#0" expanded="false" />
+            <element signature="e#2370#2498#0" expanded="false" />
+            <element signature="e#2500#2560#0" expanded="false" />
+            <element signature="e#3242#3293#0" expanded="false" />
+            <element signature="e#3615#3785#0" expanded="false" />
+            <element signature="e#3787#3841#0" expanded="false" />
+            <element signature="e#4299#4455#0" expanded="false" />
+            <element signature="e#4457#4505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -437,6 +467,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,6 +475,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2835">
           <caret line="189" column="43" lean-forward="true" selection-start-line="189" selection-start-column="43" selection-end-line="189" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+            <element signature="e#39#58#0" expanded="false" />
+            <element signature="e#556#1140#0" expanded="false" />
+            <element signature="e#1142#1300#0" expanded="false" />
+            <element signature="e#1352#1862#0" expanded="false" />
+            <element signature="e#1863#1985#0" expanded="false" />
+            <element signature="e#1987#2044#0" expanded="false" />
+            <element signature="e#2046#2368#0" expanded="false" />
+            <element signature="e#2370#2498#0" expanded="false" />
+            <element signature="e#2500#2560#0" expanded="false" />
+            <element signature="e#3242#3293#0" expanded="false" />
+            <element signature="e#3615#3785#0" expanded="false" />
+            <element signature="e#3787#3841#0" expanded="false" />
+            <element signature="e#4299#4455#0" expanded="false" />
+            <element signature="e#4457#4505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -495,6 +543,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -502,6 +551,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+            <element signature="e#39#58#0" expanded="false" />
+            <element signature="e#556#1140#0" expanded="false" />
+            <element signature="e#1142#1300#0" expanded="false" />
+            <element signature="e#1352#1862#0" expanded="false" />
+            <element signature="e#1863#1985#0" expanded="false" />
+            <element signature="e#1987#2044#0" expanded="false" />
+            <element signature="e#2046#2368#0" expanded="false" />
+            <element signature="e#2370#2498#0" expanded="false" />
+            <element signature="e#2500#2560#0" expanded="false" />
+            <element signature="e#3242#3293#0" expanded="false" />
+            <element signature="e#3615#3785#0" expanded="false" />
+            <element signature="e#3787#3841#0" expanded="false" />
+            <element signature="e#4299#4455#0" expanded="false" />
+            <element signature="e#4457#4505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -573,6 +639,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="168" column="0" lean-forward="true" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+            <element signature="e#39#58#0" expanded="false" />
+            <element signature="e#556#1140#0" expanded="false" />
+            <element signature="e#1142#1300#0" expanded="false" />
+            <element signature="e#1352#1862#0" expanded="false" />
+            <element signature="e#1863#1985#0" expanded="false" />
+            <element signature="e#1987#2044#0" expanded="false" />
+            <element signature="e#2046#2368#0" expanded="false" />
+            <element signature="e#2370#2498#0" expanded="false" />
+            <element signature="e#2500#2560#0" expanded="false" />
+            <element signature="e#3242#3293#0" expanded="false" />
+            <element signature="e#3615#3785#0" expanded="false" />
+            <element signature="e#3787#3841#0" expanded="false" />
+            <element signature="e#4299#4455#0" expanded="false" />
+            <element signature="e#4457#4505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,6 +663,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="90" column="43" lean-forward="false" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -649,17 +733,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Connection.h" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dominios.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,6 +762,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1286">
           <caret line="205" column="33" lean-forward="false" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+            <element signature="e#39#58#0" expanded="false" />
+            <element signature="e#556#1140#0" expanded="false" />
+            <element signature="e#1142#1300#0" expanded="false" />
+            <element signature="e#1352#1862#0" expanded="false" />
+            <element signature="e#1863#1985#0" expanded="false" />
+            <element signature="e#1987#2044#0" expanded="false" />
+            <element signature="e#2046#2368#0" expanded="false" />
+            <element signature="e#2370#2498#0" expanded="false" />
+            <element signature="e#2500#2560#0" expanded="false" />
+            <element signature="e#3242#3293#0" expanded="false" />
+            <element signature="e#3615#3785#0" expanded="false" />
+            <element signature="e#3787#3841#0" expanded="false" />
+            <element signature="e#4299#4455#0" expanded="false" />
+            <element signature="e#4457#4505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -697,35 +792,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/camadaApresentacao.h">
+    <entry file="file://$PROJECT_DIR$/armazenamento.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="220">
+          <caret line="195" column="70" lean-forward="false" selection-start-line="195" selection-start-column="70" selection-end-line="195" selection-end-column="70" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/camadaServico.h">
+    <entry file="file://$PROJECT_DIR$/camadaApresentacao.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        <state relative-caret-position="2160">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camadaApresentacao.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/armazenamento.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="73">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#39#61#0" expanded="true" />
+            <element signature="e#39#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/camadaServico.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
+        <state relative-caret-position="120">
           <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
@@ -733,23 +848,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armazenamento.cpp">
+    <entry file="file://$PROJECT_DIR$/camadaServico.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="195" column="70" lean-forward="true" selection-start-line="195" selection-start-column="70" selection-end-line="195" selection-end-column="70" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="103">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/camadaApresentacao.cpp">
+    <entry file="file://$PROJECT_DIR$/interfaces.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

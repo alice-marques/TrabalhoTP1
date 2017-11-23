@@ -13,8 +13,8 @@ armazenamento.h
 /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
 
 /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
-entidades.h
-/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+interfaces.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/interfaces.h
 vector
 -
 
@@ -57,6 +57,10 @@ vector
 -
 dominios.h
 /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
+
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/interfaces.h
+entidades.h
+/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
 
 /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/main.cpp
 camadaApresentacao.h

@@ -6,6 +6,7 @@ CMakeFiles/Trabalho3.dir/armazenamento.cpp.o
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+ /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/interfaces.h
 CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaApresentacao.cpp
@@ -13,12 +14,14 @@ CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+ /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/interfaces.h
 CMakeFiles/Trabalho3.dir/camadaServico.cpp.o
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/armazenamento.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.cpp
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+ /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/interfaces.h
 CMakeFiles/Trabalho3.dir/dominios.cpp.o
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.cpp
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
@@ -32,4 +35,5 @@ CMakeFiles/Trabalho3.dir/main.cpp.o
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/camadaServico.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/dominios.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h
+ /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/interfaces.h
  /media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/main.cpp

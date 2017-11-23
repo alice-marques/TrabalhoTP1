@@ -114,6 +114,9 @@
 		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/entidades.h">
 			<Option target="Trabalho3"/>
 		</Unit>
+		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/interfaces.h">
+			<Option target="Trabalho3"/>
+		</Unit>
 		<Unit filename="/media/andre/UnB/TP1/Fernando/T3/TrabalhoTP1/main.cpp">
 			<Option target="Trabalho3"/>
 		</Unit>

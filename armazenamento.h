@@ -1,13 +1,13 @@
 //
 // Created by andre on 11/13/17.
 //
-#include "entidades.h"
+#include "interfaces.h"
 #include <vector>
 #ifndef TRABALHO3_ARMAZENAMENTO_H
 #define TRABALHO3_ARMAZENAMENTO_H
 
 
-class bancoDeDados{
+class bancoDeDados: public BancoDeDados{
 private:
     static bancoDeDados* instance;
     USUARIO *usuario = nullptr;
