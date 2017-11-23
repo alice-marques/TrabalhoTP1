@@ -146,9 +146,11 @@ menuUsuarioLogado::menuUsuarioLogado() {
 }
 
 void menuUsuarioLogado::menuRemove() {
+    string entrada;
     do{
         cout << " Digite o codigo do livro a ser retirado:\n>>";
-    }while(!usuarioLogado1->retiraLivro(std::__cxx11::string()));
+        cin >> entrada;
+    }while(!usuarioLogado1->retiraLivro(entrada));
 
 }
 

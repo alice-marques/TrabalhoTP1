@@ -12,8 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ecdfc7-81c9-43d2-a798-b7a573289cdf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/armazenamento.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/armazenamento.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trabalho3.dir/camadaApresentacao.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalho3" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalho3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/armazenamento.cpp" afterPath="$PROJECT_DIR$/armazenamento.cpp" />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camadaApresentacao.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="camadaApresentacao.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/camadaApresentacao.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="136" column="56" lean-forward="false" selection-start-line="136" selection-start-column="56" selection-end-line="136" selection-end-column="56" />
+            <state relative-caret-position="148">
+              <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="armazenamento.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="armazenamento.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/armazenamento.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="196" column="64" lean-forward="true" selection-start-line="196" selection-start-column="64" selection-end-line="196" selection-end-column="64" />
+            <state relative-caret-position="220">
+              <caret line="195" column="70" lean-forward="true" selection-start-line="195" selection-start-column="70" selection-end-line="195" selection-end-column="70" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/armazenamento.h" />
         <option value="$PROJECT_DIR$/camadaServico.h" />
         <option value="$PROJECT_DIR$/camadaServico.cpp" />
-        <option value="$PROJECT_DIR$/camadaApresentacao.cpp" />
         <option value="$PROJECT_DIR$/armazenamento.cpp" />
+        <option value="$PROJECT_DIR$/camadaApresentacao.cpp" />
       </list>
     </option>
   </component>
@@ -271,12 +271,12 @@
       <workItem from="1511195910112" duration="6040000" />
       <workItem from="1511214556121" duration="3531000" />
       <workItem from="1511285981415" duration="11247000" />
-      <workItem from="1511438603173" duration="1539000" />
+      <workItem from="1511438603173" duration="1637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69026000" />
+    <option name="totallyTimeSpent" value="69124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="24" width="1366" height="741" extended-state="6" />
@@ -733,20 +733,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/camadaApresentacao.cpp">
+    <entry file="file://$PROJECT_DIR$/armazenamento.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="136" column="56" lean-forward="false" selection-start-line="136" selection-start-column="56" selection-end-line="136" selection-end-column="56" />
+        <state relative-caret-position="220">
+          <caret line="195" column="70" lean-forward="true" selection-start-line="195" selection-start-column="70" selection-end-line="195" selection-end-column="70" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armazenamento.cpp">
+    <entry file="file://$PROJECT_DIR$/camadaApresentacao.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="196" column="64" lean-forward="true" selection-start-line="196" selection-start-column="64" selection-end-line="196" selection-end-column="64" />
+        <state relative-caret-position="148">
+          <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
